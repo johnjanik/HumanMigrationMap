@@ -1,0 +1,97 @@
+.layerControl {
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+}
+
+.layerList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.layerItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+}
+
+.layerItem:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: var(--color-accent);
+}
+
+.layerName {
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+/* Zoom Control */
+.zoomControl {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.zoomButton {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.zoomButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.zoomButton:active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.zoomButton svg {
+  width: 16px;
+  height: 16px;
+}
+
+.scaleIndicator {
+  text-align: center;
+  font-size: 11px;
+  color: var(--color-text-muted);
+  padding-top: 4px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 4px;
+}

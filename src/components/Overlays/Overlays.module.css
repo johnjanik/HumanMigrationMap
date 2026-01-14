@@ -1,0 +1,64 @@
+.pointOverlay,
+.pathOverlay {
+  pointer-events: auto;
+}
+
+.marker {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.marker:hover {
+  transform: scale(1.15);
+}
+
+.markerCircle {
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.4));
+}
+
+.markerPulse {
+  animation: pulse 2s infinite;
+  opacity: 0;
+}
+
+@keyframes pulse {
+  0% {
+    r: 8;
+    opacity: 0.6;
+  }
+  100% {
+    r: 28;
+    opacity: 0;
+  }
+}
+
+.markerLabel {
+  font-size: 12px;
+  font-weight: 600;
+  fill: #fff;
+  text-shadow:
+    -1px -1px 2px rgba(0, 0, 0, 0.8),
+    1px -1px 2px rgba(0, 0, 0, 0.8),
+    -1px 1px 2px rgba(0, 0, 0, 0.8),
+    1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.path path {
+  cursor: pointer;
+  transition: stroke-opacity 0.2s ease;
+}
+
+.path:hover path {
+  stroke-opacity: 1;
+}
+
+.animatedPath {
+  stroke-dasharray: 20 10;
+  animation: dash 1s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -30;
+  }
+}
