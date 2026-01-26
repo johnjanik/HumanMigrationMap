@@ -1,6 +1,5 @@
 import type { LayerConfig } from '../types';
 
-// Local Natural Earth data (110m resolution for performance)
 const NATURAL_EARTH_BASE = './data/geojson';
 
 export const defaultLayers: LayerConfig[] = [

@@ -6,11 +6,19 @@ import { useMapInteraction } from '../hooks';
 import { defaultLayers } from '../data/layerConfigs';
 import { DEFAULT_VIEWPORT } from '../lib/constants';
 import { buildParentMap, filterEventsForHaplogroups } from '../data/migrationData';
+import {
+  buildMtDNAParentMap,
+  filterMtDNAEventsForHaplogroups,
+  getMtDNAStats,
+} from '../mtDNA_migrationData';
 import type { LayerConfig, GeoFeature, MapViewport, PointMarker, PathOverlayData } from '../types';
 import styles from './App.module.css';
 
-// Build parent map once at module level
-const parentMap = buildParentMap();
+// Build parent maps once at module level
+const yHapParentMap = buildParentMap();
+const mtDNAParentMap = buildMtDNAParentMap();
+
+type DataSource = 'Y-haplogroup' | 'mtDNA' | 'both';
 
 export function App() {
   const [viewport, setViewport] = useState<MapViewport>({
@@ -24,11 +32,22 @@ export function App() {
   const [showOverlays, setShowOverlays] = useState(true);
   const [timeRange, setTimeRange] = useState<[number, number]>([275, 0]); // kya range
   const [selectedHaplogroups, setSelectedHaplogroups] = useState<string[]>([]); // empty = show all
+  const [dataSource, setDataSource] = useState<DataSource>('Y-haplogroup');
 
   // Convert migration data to overlay formats, filtered by haplogroup and time
   const { paths, markers } = useMemo(() => {
     // First filter by haplogroup lineage (includes ancestors)
-    const haplogroupFiltered = filterEventsForHaplogroups(selectedHaplogroups, parentMap);
+    let haplogroupFiltered;
+    if (dataSource === 'Y-haplogroup') {
+      haplogroupFiltered = filterEventsForHaplogroups(selectedHaplogroups, yHapParentMap);
+    } else if (dataSource === 'mtDNA') {
+      haplogroupFiltered = filterMtDNAEventsForHaplogroups(selectedHaplogroups, mtDNAParentMap);
+    } else {
+      // 'both' - combine Y-haplogroup and mtDNA data
+      const yEvents = filterEventsForHaplogroups(selectedHaplogroups, yHapParentMap);
+      const mtEvents = filterMtDNAEventsForHaplogroups(selectedHaplogroups, mtDNAParentMap);
+      haplogroupFiltered = [...yEvents, ...mtEvents];
+    }
 
     // Then filter by time range
     const filteredEvents = haplogroupFiltered.filter(
@@ -65,7 +84,7 @@ export function App() {
     }));
 
     return { paths: allPaths, markers: allMarkers };
-  }, [timeRange, selectedHaplogroups]);
+  }, [timeRange, selectedHaplogroups, dataSource]);
 
   // Handle window resize
   useEffect(() => {
@@ -119,6 +138,61 @@ export function App() {
           onToggle={handleLayerToggle}
         />
 
+        <div className={styles.dataSourceControl}>
+          <h3 className={styles.sectionTitle}>Data Source</h3>
+          <div className={styles.radioGroup}>
+            <label className={styles.radioLabel}>
+              <input
+                type="radio"
+                name="dataSource"
+                value="Y-haplogroup"
+                checked={dataSource === 'Y-haplogroup'}
+                onChange={() => {
+                  setDataSource('Y-haplogroup');
+                  setSelectedHaplogroups([]);
+                }}
+              />
+              <span>Y-Haplogroup (Paternal)</span>
+            </label>
+            <label className={styles.radioLabel}>
+              <input
+                type="radio"
+                name="dataSource"
+                value="mtDNA"
+                checked={dataSource === 'mtDNA'}
+                onChange={() => {
+                  setDataSource('mtDNA');
+                  setSelectedHaplogroups([]);
+                }}
+              />
+              <span>mtDNA (Maternal)</span>
+            </label>
+            <label className={styles.radioLabel}>
+              <input
+                type="radio"
+                name="dataSource"
+                value="both"
+                checked={dataSource === 'both'}
+                onChange={() => {
+                  setDataSource('both');
+                  setSelectedHaplogroups([]);
+                }}
+              />
+              <span>Both (Combined)</span>
+            </label>
+          </div>
+          {(dataSource === 'mtDNA' || dataSource === 'both') && (
+            <div className={styles.statsInfo}>
+              {(() => {
+                const stats = getMtDNAStats();
+                return dataSource === 'both'
+                  ? `Combined: Y-hap + ${stats.migrationEvents} mtDNA events`
+                  : `${stats.migrationEvents} events from ${stats.withCoordinates} haplogroups`;
+              })()}
+            </div>
+          )}
+        </div>
+
         <div className={styles.overlayToggle}>
           <label className={styles.toggleLabel}>
             <input
@@ -162,6 +236,7 @@ export function App() {
         <HaplogroupSelector
           selectedHaplogroups={selectedHaplogroups}
           onSelectionChange={setSelectedHaplogroups}
+          dataSource={dataSource}
         />
       </Sidebar>
 

@@ -1,17 +1,50 @@
 import { useMemo } from 'react';
 import { getMajorHaplogroups } from '../../data/migrationData';
+import { getMajorMtDNAHaplogroups } from '../../mtDNA_migrationData';
 import styles from './HaplogroupSelector.module.css';
+
+type DataSource = 'Y-haplogroup' | 'mtDNA' | 'both';
+
+interface HaplogroupItem {
+  id: string;
+  label: string;
+  color: string;
+  category?: 'Y-haplogroup' | 'mtDNA';
+}
 
 interface HaplogroupSelectorProps {
   selectedHaplogroups: string[];
   onSelectionChange: (haplogroups: string[]) => void;
+  dataSource?: DataSource;
 }
 
 export function HaplogroupSelector({
   selectedHaplogroups,
   onSelectionChange,
+  dataSource = 'Y-haplogroup',
 }: HaplogroupSelectorProps) {
-  const haplogroups = useMemo(() => getMajorHaplogroups(), []);
+  const haplogroups = useMemo((): HaplogroupItem[] => {
+    if (dataSource === 'Y-haplogroup') {
+      return getMajorHaplogroups().map(h => ({ ...h, category: 'Y-haplogroup' as const }));
+    } else if (dataSource === 'mtDNA') {
+      return getMajorMtDNAHaplogroups().map(h => ({ ...h, category: 'mtDNA' as const }));
+    } else {
+      // 'both' - combine with prefixed IDs to avoid conflicts
+      const yHaps = getMajorHaplogroups().map(h => ({
+        id: `Y:${h.id}`,
+        label: `Y-${h.label}`,
+        color: h.color,
+        category: 'Y-haplogroup' as const,
+      }));
+      const mtHaps = getMajorMtDNAHaplogroups().map(h => ({
+        id: `mt:${h.id}`,
+        label: `mt-${h.label}`,
+        color: h.color,
+        category: 'mtDNA' as const,
+      }));
+      return [...yHaps, ...mtHaps];
+    }
+  }, [dataSource]);
 
   const handleToggle = (id: string) => {
     if (selectedHaplogroups.includes(id)) {

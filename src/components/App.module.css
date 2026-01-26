@@ -91,3 +91,51 @@
   color: var(--color-text-secondary);
   text-align: center;
 }
+
+.dataSourceControl {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.radioLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+}
+
+.radioLabel:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.radioLabel input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: var(--color-accent);
+}
+
+.radioLabel span {
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+.statsInfo {
+  margin-top: 8px;
+  padding: 6px 10px;
+  background: rgba(100, 149, 237, 0.1);
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  text-align: center;
+}

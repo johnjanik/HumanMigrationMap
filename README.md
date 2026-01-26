@@ -87,7 +87,7 @@ The Dymaxion map, invented by Buckminster Fuller in 1943, projects Earth onto an
 
 ## License
 
-MIT License - See [LICENSE](LICENSE) for details.
+MIT License - See [license](Ancient%20Human%20Migration/fuller-map-app/node_modules/ms/license.md) for details.
 
 ## Acknowledgments
 
