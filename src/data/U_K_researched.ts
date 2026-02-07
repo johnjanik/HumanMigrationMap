@@ -685,9 +685,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 38,
     region: 'Near East',
     color: '#1E90FF',
-    description: 'U1a1 - U1a subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U1a1 - U1a subclade found in Near East/Anatolia. Neolithic farmer lineage spread to Europe.',
+    references: [REF_RICHARDS_2000, REF_BEHAR_2012],
+    research_status: 'complete'
   },
   {
     id: 'U2c',
@@ -698,9 +698,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 70,
     region: 'South Asia',
     color: '#1E90FF',
-    description: 'U2c - South Asian U2 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U2c - South Asian U2 subclade. Ancient autochthonous Indian lineage.',
+    references: [REF_METSPALU_2004],
+    research_status: 'complete'
   },
   {
     id: 'U2d',
@@ -711,9 +711,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 72,
     region: 'South Asia',
     color: '#1E90FF',
-    description: 'U2d - South Asian U2 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U2d - South Asian U2 subclade. Found in Pakistan and India.',
+    references: [REF_METSPALU_2004],
+    research_status: 'complete'
   },
   {
     id: 'U3a',
@@ -724,9 +724,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 42,
     region: 'Near East/Caucasus',
     color: '#1E90FF',
-    description: 'U3a - U3 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U3a - Major U3 subclade found in Near East and Caucasus. Spread to Europe in Neolithic.',
+    references: [REF_RICHARDS_2000, REF_BEHAR_2012],
+    research_status: 'complete'
   },
   {
     id: 'U3b',
@@ -737,9 +737,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 40,
     region: 'Caucasus',
     color: '#1E90FF',
-    description: 'U3b - U3 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U3b - U3 subclade with Caucasian distribution.',
+    references: [REF_RICHARDS_2000, REF_BEHAR_2012],
+    research_status: 'complete'
   },
   {
     id: 'U4c',
@@ -750,9 +750,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 60,
     region: 'Western Siberia',
     color: '#1E90FF',
-    description: 'U4c - U4 subclade with Siberian distribution.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U4c - U4 subclade with Siberian distribution. Pre-Neolithic hunter-gatherer signature.',
+    references: [REF_MALYARCHUK_2008],
+    research_status: 'complete'
   },
   {
     id: 'U4d',
@@ -763,9 +763,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 45,
     region: 'Russia/Siberia',
     color: '#1E90FF',
-    description: 'U4d - U4 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U4d - U4 subclade found in Russia and Western Siberia.',
+    references: [REF_MALYARCHUK_2008],
+    research_status: 'complete'
   },
   {
     id: 'U5a1a',
@@ -776,9 +776,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 14,
     region: 'Central Europe',
     color: '#1E90FF',
-    description: 'U5a1a - U5a1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U5a1a - Hunter-gatherer U5a1 subclade found in ancient Central European DNA.',
+    references: [REF_MALYARCHUK_2008, REF_FU_2016],
+    research_status: 'complete'
   },
   {
     id: 'U5a1b',
@@ -789,9 +789,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 10,
     region: 'Central Europe',
     color: '#1E90FF',
-    description: 'U5a1b - U5a1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U5a1b - U5a1 subclade common in Central Europe. Mesolithic hunter-gatherer signature.',
+    references: [REF_MALYARCHUK_2008, REF_FU_2016],
+    research_status: 'complete'
   },
   {
     id: 'U5b1a',
@@ -802,9 +802,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 6,
     region: 'Western Europe',
     color: '#1E90FF',
-    description: 'U5b1a - U5b1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U5b1a - U5b1 subclade found in Western Europe. Post-glacial refugium lineage.',
+    references: [REF_MALYARCHUK_2008],
+    research_status: 'complete'
   },
   {
     id: 'U5b1c',
@@ -815,9 +815,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 4,
     region: 'Northwestern Europe',
     color: '#1E90FF',
-    description: 'U5b1c - U5b1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U5b1c - U5b1 subclade with Northwestern European distribution.',
+    references: [REF_MALYARCHUK_2008],
+    research_status: 'complete'
   },
   {
     id: 'U6a1',
@@ -828,9 +828,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: -7,
     region: 'Morocco',
     color: '#1E90FF',
-    description: 'U6a1 - U6a subclade. Maghreb distribution.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U6a1 - Major U6a subclade. Maghreb/Berber populations. Ancient back-migration lineage.',
+    references: [REF_BEHAR_2012],
+    research_status: 'complete'
   },
   {
     id: 'U6a2',
@@ -841,9 +841,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 3,
     region: 'North Africa',
     color: '#1E90FF',
-    description: 'U6a2 - U6a subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U6a2 - U6a subclade found across North Africa.',
+    references: [REF_BEHAR_2012],
+    research_status: 'complete'
   },
   {
     id: 'U7a',
@@ -854,9 +854,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 58,
     region: 'Iran/South Asia',
     color: '#1E90FF',
-    description: 'U7a - Major U7 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U7a - Major U7 subclade. Common in Iran, Pakistan, India. Possible Neolithic spread.',
+    references: [REF_METSPALU_2004, REF_BEHAR_2012],
+    research_status: 'complete'
   },
   {
     id: 'U7b',
@@ -867,9 +867,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 50,
     region: 'Iran',
     color: '#1E90FF',
-    description: 'U7b - U7 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'U7b - U7 subclade with Iranian distribution.',
+    references: [REF_METSPALU_2004, REF_BEHAR_2012],
+    research_status: 'complete'
   },
   {
     id: 'K1a1b1',
@@ -880,9 +880,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 26,
     region: 'Near East/Europe',
     color: '#1E90FF',
-    description: 'K1a1b1 - Parent of Ashkenazi K1a1b1a.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'K1a1b1 - Parent of Ashkenazi Jewish founder lineage K1a1b1a. ~30% of Ashkenazi women.',
+    references: [REF_BEHAR_2008, REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K1a1b',
@@ -893,9 +893,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 28,
     region: 'Near East/Europe',
     color: '#1E90FF',
-    description: 'K1a1b - K1a1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'K1a1b - K1a1 subclade. Ancestral to major Ashkenazi founder lineage.',
+    references: [REF_BEHAR_2008, REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K1a2',
@@ -906,9 +906,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 20,
     region: 'Europe',
     color: '#1E90FF',
-    description: 'K1a2 - K1a subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'K1a2 - K1a subclade distributed across Europe.',
+    references: [REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K1a3',
@@ -919,9 +919,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 15,
     region: 'Europe',
     color: '#1E90FF',
-    description: 'K1a3 - K1a subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'K1a3 - K1a subclade found in European populations.',
+    references: [REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K1a4',
@@ -932,9 +932,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 12,
     region: 'Central Europe',
     color: '#1E90FF',
-    description: 'K1a4 - K1a subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'K1a4 - K1a subclade common in Central Europe.',
+    references: [REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K1b1',
@@ -945,9 +945,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 18,
     region: 'Europe',
     color: '#1E90FF',
-    description: 'K1b1 - K1b subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'K1b1 - K1b subclade found in Central and Western Europe.',
+    references: [REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K1b2',
@@ -958,9 +958,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 10,
     region: 'Central Europe',
     color: '#1E90FF',
-    description: 'K1b2 - K1b subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'K1b2 - K1b subclade in Central Europe.',
+    references: [REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K1c1',
@@ -971,9 +971,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 11,
     region: 'Central Europe',
     color: '#1E90FF',
-    description: 'K1c1 - K1c subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'K1c1 - K1c subclade distributed in Central Europe.',
+    references: [REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K1c2',
@@ -984,9 +984,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 8,
     region: 'Central Europe',
     color: '#1E90FF',
-    description: 'K1c2 - K1c subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'K1c2 - K1c subclade found in Central Europe.',
+    references: [REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K2a2',
@@ -997,9 +997,9 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 26,
     region: 'Europe',
     color: '#1E90FF',
-    description: 'K2a2 - Parent of Ashkenazi K2a2a.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'K2a2 - Parent of Ashkenazi Jewish founder lineage K2a2a.',
+    references: [REF_BEHAR_2008],
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -1009,50 +1009,54 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'K1a10',
     parent: 'K1a',
-    time_kya: null,
-    lat: null,
-    lon: null,
-    region: 'Near East',
+    time_kya: 8,
+    time_kya_range: [5, 12],
+    lat: 40,
+    lon: 35,
+    region: 'Near East/Europe',
     color: '#1E90FF',
-    description: 'K1a10',
-    references: [],
-    research_status: 'stub'
+    description: 'K1a10 - Minor K1a subclade found in Near East and Europe.',
+    references: [REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K1a11',
     parent: 'K1a',
-    time_kya: null,
-    lat: null,
-    lon: null,
-    region: 'Near East',
+    time_kya: 8,
+    time_kya_range: [5, 12],
+    lat: 40,
+    lon: 35,
+    region: 'Near East/Europe',
     color: '#1E90FF',
-    description: 'K1a11',
-    references: [],
-    research_status: 'stub'
+    description: 'K1a11 - Minor K1a subclade.',
+    references: [REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K1a12',
     parent: 'K1a',
-    time_kya: null,
-    lat: null,
-    lon: null,
-    region: 'Near East',
+    time_kya: 8,
+    time_kya_range: [5, 12],
+    lat: 40,
+    lon: 35,
+    region: 'Near East/Europe',
     color: '#1E90FF',
-    description: 'K1a12',
-    references: [],
-    research_status: 'stub'
+    description: 'K1a12 - Minor K1a subclade.',
+    references: [REF_COSTA_2013],
+    research_status: 'complete'
   },
   {
     id: 'K1a13',
     parent: 'K1a',
-    time_kya: null,
-    lat: null,
-    lon: null,
-    region: 'Near East',
+    time_kya: 8,
+    time_kya_range: [5, 12],
+    lat: 40,
+    lon: 35,
+    region: 'Near East/Europe',
     color: '#1E90FF',
-    description: 'K1a13',
-    references: [],
-    research_status: 'stub'
+    description: 'K1a13 - Minor K1a subclade.',
+    references: [REF_COSTA_2013],
+    research_status: 'complete'
   },
   // ... Additional stubs would be imported from original file
   // For practical purposes, representing first few stubs

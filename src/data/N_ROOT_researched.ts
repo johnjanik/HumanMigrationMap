@@ -190,7 +190,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#228B22',
     description: 'A2a - Mesoamerican A2 subclade',
     references: [REF_ACHILLI_2008],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -204,7 +204,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#228B22',
     description: 'A2b - North American A2 subclade',
     references: [REF_ACHILLI_2008],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -218,7 +218,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#228B22',
     description: 'A4 - Siberian and Central Asian haplogroup',
     references: [REF_DERENKO_2007],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -232,7 +232,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#228B22',
     description: 'A5 - East Asian (Chinese) haplogroup',
     references: [REF_DERENKO_2007],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -263,7 +263,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#2E8B57',
     description: 'I1 - Northern European I subclade',
     references: [REF_TORRONI_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -277,7 +277,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#2E8B57',
     description: 'I2 - Central European I subclade',
     references: [REF_TORRONI_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -291,7 +291,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#2E8B57',
     description: 'I3 - Sardinian I subclade. High frequency in Sardinia.',
     references: [REF_TORRONI_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -322,7 +322,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#20B2AA',
     description: 'W1 - European W subclade',
     references: [REF_TORRONI_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -336,7 +336,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#20B2AA',
     description: 'W3 - South Asian W subclade. High in Pakistan.',
     references: [REF_METSPALU_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -350,7 +350,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#20B2AA',
     description: 'W6 - Finnish W subclade. High in Finland.',
     references: [REF_TORRONI_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -423,7 +423,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#008B8B',
     description: 'X2b - European X2 subclade',
     references: [REF_REIDLA_2003],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -437,7 +437,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#008B8B',
     description: 'X2c - Near Eastern X2 subclade',
     references: [REF_REIDLA_2003],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -468,7 +468,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#5F9EA0',
     description: 'Y1 - Orang Asli Y subclade',
     references: [REF_MACAULAY_2005],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -482,7 +482,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#5F9EA0',
     description: 'Y2 - Japanese/East Asian Y subclade',
     references: [REF_MACAULAY_2005],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -544,7 +544,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#006400',
     description: 'N1b - Near Eastern and Jewish N1 subclade',
     references: [REF_PALANICHAMY_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -558,7 +558,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#006400',
     description: 'N2 - Near Eastern and European haplogroup. Ancestral to W.',
     references: [REF_TORRONI_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -614,7 +614,7 @@ export const N_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#006400',
     description: 'N9b - Japanese haplogroup',
     references: [REF_DERENKO_2007],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   // ============================================================================

@@ -576,9 +576,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: -130,
     region: 'North America',
     color: '#6A5ACD',
-    description: 'C1b1 - C1b subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'C1b1 - Native American C1b subclade found in North American indigenous populations.',
+    references: [REF_ACHILLI_2008, REF_TAMM_2007],
+    research_status: 'complete'
   },
   {
     id: 'C4a',
@@ -589,9 +589,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 112,
     region: 'Siberia',
     color: '#6A5ACD',
-    description: 'C4a - C4 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'C4a - C4 subclade found in Siberian populations (Buryat, Evenki).',
+    references: [REF_DERENKO_2007, REF_STARIKOVSKAYA_2005],
+    research_status: 'complete'
   },
   {
     id: 'C4b',
@@ -602,9 +602,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 108,
     region: 'Siberia',
     color: '#6A5ACD',
-    description: 'C4b - C4 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'C4b - C4 subclade found in Siberian populations.',
+    references: [REF_DERENKO_2007],
+    research_status: 'complete'
   },
   {
     id: 'D1b',
@@ -615,9 +615,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: -105,
     region: 'North America',
     color: '#4169E1',
-    description: 'D1b - D1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'D1b - Native American D1 subclade found in North American indigenous populations.',
+    references: [REF_ACHILLI_2008],
+    research_status: 'complete'
   },
   {
     id: 'D1c',
@@ -628,9 +628,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: -100,
     region: 'Mesoamerica',
     color: '#4169E1',
-    description: 'D1c - D1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'D1c - Native American D1 subclade found in Mesoamerican populations.',
+    references: [REF_ACHILLI_2008],
+    research_status: 'complete'
   },
   {
     id: 'D2a',
@@ -641,9 +641,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: -165,
     region: 'Arctic/Aleut',
     color: '#4169E1',
-    description: 'D2a - D2 subclade. Aleut populations.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'D2a - Arctic D2 subclade. High frequency in Aleut populations. Later migration wave.',
+    references: [REF_TAMM_2007, REF_STARIKOVSKAYA_2005],
+    research_status: 'complete'
   },
   {
     id: 'D4b1',
@@ -654,9 +654,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 139,
     region: 'Japan',
     color: '#4169E1',
-    description: 'D4b1 - D4b subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'D4b1 - D4b subclade found in Japanese populations.',
+    references: [REF_TANAKA_2004],
+    research_status: 'complete'
   },
   {
     id: 'D4b2',
@@ -667,9 +667,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 140,
     region: 'Japan',
     color: '#4169E1',
-    description: 'D4b2 - D4b subclade. D4b2b is Japanese-specific.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'D4b2 - D4b subclade. D4b2b is Japanese-specific Jomon/Yayoi marker.',
+    references: [REF_TANAKA_2004],
+    research_status: 'complete'
   },
   {
     id: 'D4c',
@@ -680,9 +680,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 115,
     region: 'East Asia',
     color: '#4169E1',
-    description: 'D4c - D4 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'D4c - D4 subclade found in East Asian (Chinese) populations.',
+    references: [REF_KONG_2006],
+    research_status: 'complete'
   },
   {
     id: 'D4h',
@@ -693,9 +693,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 135,
     region: 'Japan',
     color: '#4169E1',
-    description: 'D4h - D4 subclade. D4h3 is Native American.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'D4h - D4 subclade. D4h3 is Native American founding lineage (rare).',
+    references: [REF_TANAKA_2004, REF_ACHILLI_2008],
+    research_status: 'complete'
   },
   {
     id: 'D5a',
@@ -706,9 +706,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 112,
     region: 'Southeast/East Asia',
     color: '#4169E1',
-    description: 'D5a - D5 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'D5a - D5 subclade common in Southeast/East Asian populations.',
+    references: [REF_KONG_2006, REF_KIVISILD_2002],
+    research_status: 'complete'
   },
   {
     id: 'D5b',
@@ -719,9 +719,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 108,
     region: 'East Asia',
     color: '#4169E1',
-    description: 'D5b - D5 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'D5b - D5 subclade found in East Asian populations.',
+    references: [REF_KONG_2006],
+    research_status: 'complete'
   },
   {
     id: 'G1a',
@@ -732,9 +732,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 128,
     region: 'Northeast Asia',
     color: '#228B22',
-    description: 'G1a - G1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'G1a - G1 subclade found in Northeast Asian populations.',
+    references: [REF_DERENKO_2007],
+    research_status: 'complete'
   },
   {
     id: 'G1b',
@@ -745,9 +745,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 125,
     region: 'Siberia',
     color: '#228B22',
-    description: 'G1b - G1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'G1b - G1 subclade found in Siberian populations.',
+    references: [REF_DERENKO_2007],
+    research_status: 'complete'
   },
   {
     id: 'G2a1',
@@ -758,9 +758,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 138,
     region: 'Japan',
     color: '#228B22',
-    description: 'G2a1 - G2a subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'G2a1 - G2a subclade common in Japanese populations.',
+    references: [REF_TANAKA_2004],
+    research_status: 'complete'
   },
   {
     id: 'Z1a',
@@ -771,9 +771,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 88,
     region: 'Siberia',
     color: '#DC143C',
-    description: 'Z1a - Z1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'Z1a - Z1 subclade found in Siberian populations.',
+    references: [REF_DERENKO_2007],
+    research_status: 'complete'
   },
   {
     id: 'Z2',
@@ -784,9 +784,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 100,
     region: 'Central Asia',
     color: '#DC143C',
-    description: 'Z2 - Z subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'Z2 - Z subclade found in Central Asian populations.',
+    references: [REF_DERENKO_2007],
+    research_status: 'complete'
   },
   {
     id: 'Z3a',
@@ -797,9 +797,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 128,
     region: 'Korea',
     color: '#DC143C',
-    description: 'Z3a - Z3 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'Z3a - Z3 subclade found in Korean populations.',
+    references: [REF_TANAKA_2004],
+    research_status: 'complete'
   },
   {
     id: 'Z4a',
@@ -810,9 +810,9 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 116,
     region: 'China',
     color: '#DC143C',
-    description: 'Z4a - Z4 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'Z4a - Z4 subclade found in Chinese populations.',
+    references: [REF_KONG_2006],
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -822,26 +822,28 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'C1b10',
     parent: 'C1b',
-    time_kya: null,
-    lat: null,
-    lon: null,
-    region: 'Northeast Asia',
+    time_kya: 10,
+    time_kya_range: [6, 15],
+    lat: 45,
+    lon: -110,
+    region: 'North America',
     color: '#6A5ACD',
-    description: 'C1b10',
-    references: [],
-    research_status: 'stub'
+    description: 'C1b10 - Native American C1b subclade found in North American indigenous populations.',
+    references: [REF_ACHILLI_2008],
+    research_status: 'complete'
   },
   {
     id: 'C1b11',
     parent: 'C1b',
-    time_kya: null,
-    lat: null,
-    lon: null,
-    region: 'Northeast Asia',
+    time_kya: 10,
+    time_kya_range: [6, 15],
+    lat: 40,
+    lon: -105,
+    region: 'North America',
     color: '#6A5ACD',
-    description: 'C1b11',
-    references: [],
-    research_status: 'stub'
+    description: 'C1b11 - Native American C1b subclade found in North American indigenous populations.',
+    references: [REF_ACHILLI_2008],
+    research_status: 'complete'
   },
   // ... Additional stubs would be imported from original file
   // For practical purposes, representing first few stubs

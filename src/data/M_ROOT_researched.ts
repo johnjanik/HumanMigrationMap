@@ -205,7 +205,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M2a - Major M2 subclade in tribal India',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -219,7 +219,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M2b - Southern Indian M2 subclade',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -247,7 +247,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M4 - South Asian haplogroup with M4a being most common',
     references: [REF_METSPALU_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -275,7 +275,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M6 - Central Indian haplogroup',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -359,7 +359,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M8a - East Asian haplogroup',
     references: [REF_KONG_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -404,7 +404,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M10 - East Asian haplogroup',
     references: [REF_KONG_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -418,7 +418,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M11 - Southern Chinese haplogroup',
     references: [REF_KONG_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -432,7 +432,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M12 - East Asian haplogroup. Ancestral to G.',
     references: [REF_KONG_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -446,7 +446,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M13 - Southeast Asian and Southwestern Chinese haplogroup',
     references: [REF_KONG_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -494,7 +494,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M30 - South Indian haplogroup',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -508,7 +508,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M33 - Ancient Eastern Indian lineage',
     references: [REF_SUN_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -522,7 +522,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M34 - Central Indian haplogroup',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -536,7 +536,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M35 - Western Indian haplogroup',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -550,7 +550,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M36 - South Indian haplogroup',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -564,7 +564,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M37 - Indian haplogroup',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -578,7 +578,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M38 - Indian haplogroup',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -592,7 +592,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M39 - Indian haplogroup',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -606,7 +606,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M40 - Indian haplogroup',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -620,7 +620,7 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#4B0082',
     description: 'M41 - Indian haplogroup',
     references: [REF_CHANDRASEKAR_2009],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {

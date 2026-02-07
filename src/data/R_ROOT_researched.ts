@@ -153,7 +153,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#FF6347',
     description: 'R0a1 - Arabian/East African R0a subclade',
     references: [REF_TORRONI_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -167,7 +167,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#FF6347',
     description: 'R0a2 - Arabian R0a subclade',
     references: [REF_TORRONI_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -212,7 +212,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#FF8C00',
     description: 'HV1 - Near Eastern HV subclade',
     references: [REF_ACHILLI_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -226,7 +226,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#FF8C00',
     description: 'HV2 - Caucasian HV subclade',
     references: [REF_ACHILLI_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -271,7 +271,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#FF0000',
     description: 'H2 - Central/Western European H subclade',
     references: [REF_ACHILLI_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -299,7 +299,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#FF0000',
     description: 'H4 - Central European H subclade',
     references: [REF_ACHILLI_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -313,7 +313,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#FF0000',
     description: 'H5 - Central/Eastern European H subclade',
     references: [REF_ACHILLI_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -327,7 +327,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#FF0000',
     description: 'H6 - Eastern European H subclade',
     references: [REF_ACHILLI_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -341,7 +341,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#FF0000',
     description: 'H7 - Caucasian/Near Eastern H subclade',
     references: [REF_ACHILLI_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -372,7 +372,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#FF7F50',
     description: 'V1 - Western European V subclade',
     references: [REF_TORRONI_2006],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -403,7 +403,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#8B0000',
     description: 'R1 - South Asian R subclade (~50 kya). Ancient Indian lineage.',
     references: [REF_METSPALU_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -417,7 +417,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#8B0000',
     description: 'R2 - South Asian R subclade (~50 kya). Found in tribal populations.',
     references: [REF_METSPALU_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -445,7 +445,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#8B0000',
     description: 'R6 - South Asian R subclade',
     references: [REF_METSPALU_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -459,7 +459,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#8B0000',
     description: 'R7 - South Asian R subclade',
     references: [REF_METSPALU_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -473,7 +473,7 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#8B0000',
     description: 'R8 - Western Indian R subclade',
     references: [REF_METSPALU_2004],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {

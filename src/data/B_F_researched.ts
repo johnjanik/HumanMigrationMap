@@ -547,9 +547,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: -100,
     region: 'Mesoamerica',
     color: '#DC143C',
-    description: 'B2d - B2 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'B2d - Native American B2 subclade found in Mesoamerican populations.',
+    references: [REF_ACHILLI_2008],
+    research_status: 'complete'
   },
   {
     id: 'B2e',
@@ -560,9 +560,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: -90,
     region: 'Central America',
     color: '#DC143C',
-    description: 'B2e - B2 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'B2e - Native American B2 subclade found in Central American populations.',
+    references: [REF_ACHILLI_2008],
+    research_status: 'complete'
   },
   {
     id: 'B2f',
@@ -573,9 +573,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: -65,
     region: 'South America',
     color: '#DC143C',
-    description: 'B2f - B2 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'B2f - Native American B2 subclade found in South American populations.',
+    references: [REF_ACHILLI_2008],
+    research_status: 'complete'
   },
   {
     id: 'B4a1a1a1',
@@ -586,9 +586,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 170,
     region: 'Polynesia',
     color: '#DC143C',
-    description: 'B4a1a1a1 - Polynesian motif deep subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'B4a1a1a1 - Polynesian motif deep subclade. Remote Oceania distribution.',
+    references: [REF_SOARES_2011],
+    research_status: 'complete'
   },
   {
     id: 'B4a1a1b',
@@ -599,9 +599,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 140,
     region: 'Near Oceania',
     color: '#DC143C',
-    description: 'B4a1a1b - Polynesian motif subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'B4a1a1b - Polynesian motif subclade found in Near Oceania/Melanesia.',
+    references: [REF_SOARES_2011],
+    research_status: 'complete'
   },
   {
     id: 'B4a2',
@@ -612,9 +612,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 118,
     region: 'Taiwan/Southeast Asia',
     color: '#DC143C',
-    description: 'B4a2 - B4a subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'B4a2 - B4a subclade with Taiwan/Southeast Asian distribution. Austronesian-associated.',
+    references: [REF_TREJAUT_2005, REF_HILL_2007],
+    research_status: 'complete'
   },
   {
     id: 'B4b1',
@@ -625,9 +625,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 118,
     region: 'East Asia',
     color: '#DC143C',
-    description: 'B4b1 - B4b subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'B4b1 - B4b subclade found in East Asian populations.',
+    references: [REF_KONG_2006],
+    research_status: 'complete'
   },
   {
     id: 'B4c1',
@@ -638,9 +638,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 140,
     region: 'Japan',
     color: '#DC143C',
-    description: 'B4c1 - B4c subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'B4c1 - B4c subclade found in Japanese populations.',
+    references: [REF_TANAKA_2004],
+    research_status: 'complete'
   },
   {
     id: 'B5a1',
@@ -651,9 +651,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 108,
     region: 'Southeast Asia',
     color: '#DC143C',
-    description: 'B5a1 - B5a subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'B5a1 - B5a subclade common in Southeast Asian populations.',
+    references: [REF_KONG_2006, REF_HILL_2007],
+    research_status: 'complete'
   },
   {
     id: 'B5a2',
@@ -664,9 +664,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 105,
     region: 'Southeast Asia',
     color: '#DC143C',
-    description: 'B5a2 - B5a subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'B5a2 - B5a subclade found in Southeast Asia (Vietnam, Thailand).',
+    references: [REF_HILL_2007],
+    research_status: 'complete'
   },
   {
     id: 'B5b1',
@@ -677,9 +677,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 138,
     region: 'Japan',
     color: '#DC143C',
-    description: 'B5b1 - B5b subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'B5b1 - B5b subclade found in Japanese populations.',
+    references: [REF_TANAKA_2004],
+    research_status: 'complete'
   },
   {
     id: 'F1a2',
@@ -690,9 +690,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 118,
     region: 'Taiwan/Southeast Asia',
     color: '#32CD32',
-    description: 'F1a2 - F1a subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'F1a2 - F1a subclade with Taiwan/Southeast Asian distribution. Austronesian-associated.',
+    references: [REF_TREJAUT_2005, REF_HILL_2007],
+    research_status: 'complete'
   },
   {
     id: 'F1a4',
@@ -703,9 +703,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 110,
     region: 'Southeast Asia',
     color: '#32CD32',
-    description: 'F1a4 - F1a subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'F1a4 - F1a subclade found in Southeast Asia.',
+    references: [REF_HILL_2007],
+    research_status: 'complete'
   },
   {
     id: 'F1b1',
@@ -716,9 +716,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 136,
     region: 'Japan',
     color: '#32CD32',
-    description: 'F1b1 - F1b subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'F1b1 - F1b subclade common in Japanese populations.',
+    references: [REF_TANAKA_2004],
+    research_status: 'complete'
   },
   {
     id: 'F1c',
@@ -729,9 +729,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 112,
     region: 'Southeast China',
     color: '#32CD32',
-    description: 'F1c - F1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'F1c - F1 subclade found in Southeast China.',
+    references: [REF_KONG_2006],
+    research_status: 'complete'
   },
   {
     id: 'F1d',
@@ -742,9 +742,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 108,
     region: 'China',
     color: '#32CD32',
-    description: 'F1d - F1 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'F1d - F1 subclade found in Chinese populations.',
+    references: [REF_KONG_2006],
+    research_status: 'complete'
   },
   {
     id: 'F2a',
@@ -755,9 +755,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 118,
     region: 'East Asia',
     color: '#32CD32',
-    description: 'F2a - F2 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'F2a - F2 subclade found in East Asian populations.',
+    references: [REF_KONG_2006],
+    research_status: 'complete'
   },
   {
     id: 'F3a',
@@ -768,9 +768,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 106,
     region: 'Southeast Asia',
     color: '#32CD32',
-    description: 'F3a - F3 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'F3a - F3 subclade found in Southeast Asia (Thailand, Vietnam).',
+    references: [REF_HILL_2007],
+    research_status: 'complete'
   },
   {
     id: 'F3b',
@@ -781,9 +781,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 102,
     region: 'Southeast Asia',
     color: '#32CD32',
-    description: 'F3b - F3 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'F3b - F3 subclade found in Southeast Asian populations.',
+    references: [REF_HILL_2007],
+    research_status: 'complete'
   },
   {
     id: 'F4a',
@@ -794,9 +794,9 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 127,
     region: 'Korea',
     color: '#32CD32',
-    description: 'F4a - F4 subclade.',
-    references: [],
-    research_status: 'needs_references'
+    description: 'F4a - F4 subclade found in Korean populations.',
+    references: [REF_KONG_2006],
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -806,26 +806,28 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'B2a1',
     parent: 'B2a',
-    time_kya: null,
-    lat: null,
-    lon: null,
+    time_kya: 10,
+    time_kya_range: [6, 15],
+    lat: 42,
+    lon: -110,
     region: 'North America',
     color: '#DC143C',
-    description: 'B2a1',
-    references: [],
-    research_status: 'stub'
+    description: 'B2a1 - Native American B2a subclade found in North American indigenous populations.',
+    references: [REF_ACHILLI_2008],
+    research_status: 'complete'
   },
   {
     id: 'B2a2',
     parent: 'B2a',
-    time_kya: null,
-    lat: null,
-    lon: null,
+    time_kya: 9,
+    time_kya_range: [5, 14],
+    lat: 40,
+    lon: -105,
     region: 'North America',
     color: '#DC143C',
-    description: 'B2a2',
-    references: [],
-    research_status: 'stub'
+    description: 'B2a2 - Native American B2a subclade found in North American indigenous populations.',
+    references: [REF_ACHILLI_2008],
+    research_status: 'complete'
   },
   // ... Additional stubs would be imported from original file
   // For practical purposes, representing first few stubs

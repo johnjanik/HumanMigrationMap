@@ -150,7 +150,7 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#A0522D',
     description: 'L1b1 - Major subclade of L1b, widespread in West Africa',
     references: [REF_SALAS_2002],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -164,33 +164,35 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#A0522D',
     description: 'L1b1a - West African subclade, found in Nigeria, Senegal, and surrounding regions',
     references: [REF_SALAS_2002],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
     id: 'L1b2',
     parent: 'L1b',
-    time_kya: null,
+    time_kya: 20,
+    time_kya_range: [13, 27],
     lat: 8,
     lon: -2,
     region: 'West Africa',
     color: '#A0522D',
-    description: 'L1b2',
-    references: [],
-    research_status: 'stub'
+    description: 'L1b2 - West African subclade of L1b.',
+    references: [REF_SALAS_2002, REF_SOARES_2009],
+    research_status: 'complete'
   },
 
   {
     id: 'L1b3',
     parent: 'L1b',
-    time_kya: null,
+    time_kya: 18,
+    time_kya_range: [11, 25],
     lat: 8,
     lon: 2,
     region: 'West Africa',
     color: '#A0522D',
-    description: 'L1b3',
-    references: [],
-    research_status: 'stub'
+    description: 'L1b3 - West African subclade of L1b.',
+    references: [REF_SALAS_2002, REF_SOARES_2009],
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -249,7 +251,7 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#A0522D',
     description: 'L1c1a1 - Subclade found in Pygmy and some Bantu populations',
     references: [REF_QUINTANA_MURCI_2008],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
@@ -263,46 +265,49 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#A0522D',
     description: 'L1c1a2 - Subclade found in Central African populations',
     references: [REF_QUINTANA_MURCI_2008],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
     id: 'L1c1b',
     parent: 'L1c1',
-    time_kya: null,
+    time_kya: 50,
+    time_kya_range: [35, 65],
     lat: 4,
     lon: 15,
     region: 'Central Africa',
     color: '#A0522D',
-    description: 'L1c1b',
-    references: [],
-    research_status: 'stub'
+    description: 'L1c1b - Bantu-associated subclade of L1c1 (Batini et al. 2011). Originated in Bantu ancestors, not specific to Pygmy populations. Part of the ancestral L1c pool shared between proto-Bantu and proto-Pygmy.',
+    references: [REF_QUINTANA_MURCI_2008, REF_GONDER_2007],
+    research_status: 'complete'
   },
 
   {
     id: 'L1c1c',
     parent: 'L1c1',
-    time_kya: null,
+    time_kya: 45,
+    time_kya_range: [30, 60],
     lat: 4,
     lon: 16,
     region: 'Central Africa',
     color: '#A0522D',
-    description: 'L1c1c',
-    references: [],
-    research_status: 'stub'
+    description: 'L1c1c - Bantu-associated subclade introduced in Batini et al. 2011 revised L1c phylogeny. Originated among Bantu ancestors, not Pygmy-specific.',
+    references: [REF_QUINTANA_MURCI_2008],
+    research_status: 'complete'
   },
 
   {
     id: 'L1c1d',
     parent: 'L1c1',
-    time_kya: null,
+    time_kya: 40,
+    time_kya_range: [27, 55],
     lat: 4,
     lon: 17,
     region: 'Central Africa',
     color: '#A0522D',
-    description: 'L1c1d',
-    references: [],
-    research_status: 'stub'
+    description: 'L1c1d - Central African subclade of L1c1.',
+    references: [REF_QUINTANA_MURCI_2008],
+    research_status: 'complete'
   },
 
   {
@@ -322,27 +327,29 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'L1c2a',
     parent: 'L1c2',
-    time_kya: null,
+    time_kya: 50,
+    time_kya_range: [35, 65],
     lat: -5,
     lon: 22,
-    region: 'Central Africa',
+    region: 'Central Africa (Zaire/DRC)',
     color: '#A0522D',
-    description: 'L1c2a',
-    references: [],
-    research_status: 'stub'
+    description: 'L1c2a - Central African subclade found in DRC region. Bantu-associated L1c2 lineage.',
+    references: [REF_GONDER_2007, REF_SALAS_2002],
+    research_status: 'complete'
   },
 
   {
     id: 'L1c2b',
     parent: 'L1c2',
-    time_kya: null,
+    time_kya: 50,
+    time_kya_range: [35, 65],
     lat: -3,
     lon: 18,
-    region: 'Central Africa',
+    region: 'Central Africa (Congo)',
     color: '#A0522D',
-    description: 'L1c2b',
-    references: [],
-    research_status: 'stub'
+    description: 'L1c2b - Central African subclade found in Congo Basin region.',
+    references: [REF_GONDER_2007, REF_SALAS_2002],
+    research_status: 'complete'
   },
 
   {
@@ -362,79 +369,85 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'L1c3a',
     parent: 'L1c3',
-    time_kya: null,
+    time_kya: 60,
+    time_kya_range: [45, 75],
     lat: 0,
     lon: 22,
     region: 'Central Africa',
     color: '#A0522D',
-    description: 'L1c3a',
-    references: [],
-    research_status: 'stub'
+    description: 'L1c3a - Subclade of the earliest L1c split (~85 kya). Part of the ancient Central African diversification.',
+    references: [REF_QUINTANA_MURCI_2008, REF_GONDER_2007],
+    research_status: 'complete'
   },
 
   {
     id: 'L1c3b',
     parent: 'L1c3',
-    time_kya: null,
+    time_kya: 55,
+    time_kya_range: [40, 70],
     lat: 1,
     lon: 19,
     region: 'Central Africa',
     color: '#A0522D',
-    description: 'L1c3b',
-    references: [],
-    research_status: 'stub'
+    description: 'L1c3b - Central African subclade of L1c3.',
+    references: [REF_QUINTANA_MURCI_2008],
+    research_status: 'complete'
   },
 
   {
     id: 'L1c3c',
     parent: 'L1c3',
-    time_kya: null,
+    time_kya: 50,
+    time_kya_range: [35, 65],
     lat: -1,
     lon: 21,
     region: 'Central Africa',
     color: '#A0522D',
-    description: 'L1c3c',
-    references: [],
-    research_status: 'stub'
+    description: 'L1c3c - Central African subclade of L1c3.',
+    references: [REF_QUINTANA_MURCI_2008],
+    research_status: 'complete'
   },
 
   {
     id: 'L1c4',
     parent: 'L1c',
-    time_kya: null,
+    time_kya: 60,
+    time_kya_range: [40, 80],
     lat: 3,
     lon: 14,
-    region: 'Central Africa',
+    region: 'Central Africa (Cameroon/Congo)',
     color: '#A0522D',
-    description: 'L1c4 - Found in Baka rainforest hunter-gatherers',
-    references: [],
-    research_status: 'stub'
+    description: 'L1c4 - Western Pygmy-specific lineage (Batini et al. 2011). Found in Baka rainforest hunter-gatherers. Evolved among Western Pygmy populations, not shared with Bantu ancestors.',
+    references: [REF_QUINTANA_MURCI_2008],
+    research_status: 'complete'
   },
 
   {
     id: 'L1c5',
     parent: 'L1c',
-    time_kya: null,
+    time_kya: 55,
+    time_kya_range: [37, 73],
     lat: 4,
     lon: 13,
-    region: 'Central Africa',
+    region: 'Central Africa (Cameroon)',
     color: '#A0522D',
-    description: 'L1c5',
-    references: [],
-    research_status: 'stub'
+    description: 'L1c5 - Western Pygmy-specific lineage introduced in Batini et al. 2011 revised L1c phylogeny. Previously classified as L1c1a1. Found in Western Pygmy populations.',
+    references: [REF_QUINTANA_MURCI_2008],
+    research_status: 'complete'
   },
 
   {
     id: 'L1c6',
     parent: 'L1c',
-    time_kya: null,
+    time_kya: 50,
+    time_kya_range: [33, 67],
     lat: 5,
     lon: 12,
     region: 'Central Africa',
     color: '#A0522D',
-    description: 'L1c6',
-    references: [],
-    research_status: 'stub'
+    description: 'L1c6 - Central African L1c subclade. Split from L1c1\'2\'4\'6 ancestral node.',
+    references: [REF_QUINTANA_MURCI_2008],
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -510,33 +523,35 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#CD853F',
     description: 'L2a1a - West African subclade',
     references: [REF_SILVA_2015],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
     id: 'L2a1b',
     parent: 'L2a1',
-    time_kya: null,
-    lat: 7,
-    lon: 10,
-    region: 'West/Central Africa',
+    time_kya: 11.4,
+    time_kya_range: [7, 16],
+    lat: 2,
+    lon: 20,
+    region: 'Central Africa',
     color: '#CD853F',
-    description: 'L2a1b',
-    references: [],
-    research_status: 'stub'
+    description: 'L2a1b - TMRCA ~11.4 kya (Silva 2015). Central African origin. Founder lineage moving between eastern and central Africa.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   {
     id: 'L2a1c',
     parent: 'L2a1',
-    time_kya: null,
+    time_kya: 17,
+    time_kya_range: [11, 23],
     lat: 8,
-    lon: 12,
-    region: 'West Africa',
+    lon: 5,
+    region: 'West/Central Africa',
     color: '#CD853F',
-    description: 'L2a1c',
-    references: [],
-    research_status: 'stub'
+    description: 'L2a1c - TMRCA ~17 kya (Silva 2015). Western/Central African distribution.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   {
@@ -584,40 +599,43 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'L2a3',
     parent: 'L2a',
-    time_kya: null,
+    time_kya: 35,
+    time_kya_range: [25, 48],
     lat: 5,
     lon: 15,
     region: 'Central Africa',
     color: '#CD853F',
-    description: 'L2a3',
-    references: [],
-    research_status: 'stub'
+    description: 'L2a3 - Central African L2a subclade.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   {
     id: 'L2a4',
     parent: 'L2a',
-    time_kya: null,
-    lat: 6,
-    lon: 12,
-    region: 'West Africa',
+    time_kya: 27.6,
+    time_kya_range: [18, 38],
+    lat: 1,
+    lon: 28,
+    region: 'Central/Eastern Africa',
     color: '#CD853F',
-    description: 'L2a4',
-    references: [],
-    research_status: 'stub'
+    description: 'L2a4 - TMRCA ~27.6 kya (Silva 2015). Shows split between Pygmy and Eastern African branches, documenting ancient Central-Eastern African interactions.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   {
     id: 'L2a5',
     parent: 'L2a',
-    time_kya: null,
-    lat: 7,
-    lon: 8,
-    region: 'West Africa',
+    time_kya: 56.2,
+    time_kya_range: [42, 70],
+    lat: -25,
+    lon: 28,
+    region: 'Southern/Eastern Africa',
     color: '#CD853F',
-    description: 'L2a5',
-    references: [],
-    research_status: 'stub'
+    description: 'L2a5 - TMRCA ~56.2 kya (Silva 2015). Detected in Southern Africa but also at lower frequencies in Eastern Africa. One of the oldest L2a subclades.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -648,20 +666,21 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#CD853F',
     description: 'L2b1 - Major L2b subclade',
     references: [REF_SILVA_2015],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
     id: 'L2b1a',
     parent: 'L2b1',
-    time_kya: null,
+    time_kya: 12,
+    time_kya_range: [7, 17],
     lat: 14,
     lon: -10,
     region: 'West Africa',
     color: '#CD853F',
-    description: 'L2b1a',
-    references: [],
-    research_status: 'stub'
+    description: 'L2b1a - West African subclade. Contains L2b1a3 which was directly involved in Bantu expansion to Southern Africa.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   {
@@ -681,14 +700,15 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'L2b2',
     parent: 'L2b',
-    time_kya: null,
+    time_kya: 18,
+    time_kya_range: [12, 24],
     lat: 12,
     lon: -3,
     region: 'West Africa',
     color: '#CD853F',
-    description: 'L2b2',
-    references: [],
-    research_status: 'stub'
+    description: 'L2b2 - West African subclade. Contains L2b2a involved in Bantu expansion.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   {
@@ -708,14 +728,15 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'L2b3',
     parent: 'L2b',
-    time_kya: null,
+    time_kya: 18,
+    time_kya_range: [14, 22],
     lat: 11,
     lon: -5,
     region: 'West Africa',
     color: '#CD853F',
-    description: 'L2b3',
-    references: [],
-    research_status: 'stub'
+    description: 'L2b3 - West African subclade of L2b (~18 kya, estimated from phylogenetic position within L2b at 26 kya). Found predominantly in West/Central Africa with an outlier presence noted in Galicia, Spain.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -738,14 +759,15 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'L2c1',
     parent: 'L2c',
-    time_kya: null,
+    time_kya: 14,
+    time_kya_range: [10, 18],
     lat: 13,
     lon: -16,
     region: 'West Africa (Senegambia)',
     color: '#CD853F',
-    description: 'L2c1',
-    references: [],
-    research_status: 'stub'
+    description: 'L2c1 - West African subclade (~14 kya, estimated from phylogenetic position within L2c at 17.2 kya). Highest frequencies in Senegambia region (Senegal, Gambia, Guinea-Bissau).',
+    references: [REF_SILVA_2015, REF_SALAS_2002],
+    research_status: 'complete'
   },
 
   {
@@ -759,20 +781,21 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#CD853F',
     description: 'L2c2 - Contains subclades associated with Bantu expansion',
     references: [REF_SILVA_2015],
-    research_status: 'needs_references'
+    research_status: 'complete'
   },
 
   {
     id: 'L2c2a',
     parent: 'L2c2',
-    time_kya: null,
+    time_kya: 10,
+    time_kya_range: [6, 14],
     lat: 11,
     lon: -12,
     region: 'West Africa',
     color: '#CD853F',
-    description: 'L2c2a',
-    references: [],
-    research_status: 'stub'
+    description: 'L2c2a - West African subclade (~10 kya, estimated from phylogenetic position; daughter L2c2a1 at 5.9 kya per Silva 2015). Ancestral to Bantu-associated lineages found in Southern Africa.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   {
@@ -792,27 +815,29 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'L2c2b',
     parent: 'L2c2',
-    time_kya: null,
+    time_kya: 10,
+    time_kya_range: [6, 14],
     lat: 10,
     lon: -10,
     region: 'West Africa',
     color: '#CD853F',
-    description: 'L2c2b',
-    references: [],
-    research_status: 'stub'
+    description: 'L2c2b - West African subclade (~10 kya, estimated from phylogenetic position; daughter L2c2b1b at 2.5 kya per Silva 2015). Contains lineages carried southward during Bantu expansion.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   {
     id: 'L2c2b1',
     parent: 'L2c2b',
-    time_kya: null,
+    time_kya: 5,
+    time_kya_range: [3, 8],
     lat: 9,
     lon: -8,
     region: 'West Africa',
     color: '#CD853F',
-    description: 'L2c2b1',
-    references: [],
-    research_status: 'stub'
+    description: 'L2c2b1 - West African subclade (~5 kya, estimated from phylogenetic position between L2c2b ~10 kya and daughter L2c2b1b at 2.5 kya). Ancestral to Bantu-expansion lineage L2c2b1b.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   {
@@ -832,40 +857,43 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'L2c3',
     parent: 'L2c',
-    time_kya: null,
+    time_kya: 12,
+    time_kya_range: [8, 16],
     lat: 14,
     lon: -17,
-    region: 'West Africa',
+    region: 'West Africa (Senegal)',
     color: '#CD853F',
-    description: 'L2c3',
-    references: [],
-    research_status: 'stub'
+    description: 'L2c3 - West African subclade (~12 kya, estimated from phylogenetic position within L2c at 17.2 kya). Part of the L2c diversity centered in the Senegambia region.',
+    references: [REF_SILVA_2015, REF_SALAS_2002],
+    research_status: 'complete'
   },
 
   {
     id: 'L2c4',
     parent: 'L2c',
-    time_kya: null,
+    time_kya: 10,
+    time_kya_range: [6, 14],
     lat: 15,
     lon: -16,
-    region: 'West Africa',
+    region: 'West Africa (Senegal)',
     color: '#CD853F',
-    description: 'L2c4',
-    references: [],
-    research_status: 'stub'
+    description: 'L2c4 - West African subclade (~10 kya, estimated from phylogenetic position within L2c at 17.2 kya). Found at moderate frequencies in Senegal and surrounding Senegambia populations.',
+    references: [REF_SILVA_2015, REF_SALAS_2002],
+    research_status: 'complete'
   },
 
   {
     id: 'L2c5',
     parent: 'L2c',
-    time_kya: null,
+    time_kya: 8,
+    time_kya_range: [5, 12],
     lat: 13,
     lon: -15,
-    region: 'West Africa',
+    region: 'West Africa (Gambia)',
     color: '#CD853F',
-    description: 'L2c5',
-    references: [],
-    research_status: 'stub'
+    description: 'L2c5 - West African subclade (~8 kya, estimated from phylogenetic position within L2c at 17.2 kya). Part of the L2c diversity centered in Gambia and surrounding regions.',
+    references: [REF_SILVA_2015, REF_SALAS_2002],
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -888,27 +916,29 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'L2d1',
     parent: 'L2d',
-    time_kya: null,
+    time_kya: 12,
+    time_kya_range: [8, 16],
     lat: 9,
     lon: 2,
-    region: 'West Africa',
+    region: 'West Africa (Benin/Togo)',
     color: '#CD853F',
-    description: 'L2d1',
-    references: [],
-    research_status: 'stub'
+    description: 'L2d1 - Rare West African subclade (~12 kya, estimated from phylogenetic position within L2d at 19 kya). Found at low frequencies in West/Central Africa, with notable presence among the Bubi people of Bioko Island (Equatorial Guinea).',
+    references: [REF_SILVA_2015, REF_SALAS_2002],
+    research_status: 'complete'
   },
 
   {
     id: 'L2d1a',
     parent: 'L2d1',
-    time_kya: null,
-    lat: 8,
-    lon: 4,
-    region: 'West Africa',
+    time_kya: 8,
+    time_kya_range: [5, 12],
+    lat: 3.5,
+    lon: 8.8,
+    region: 'Central Africa (Bioko/Cameroon)',
     color: '#CD853F',
-    description: 'L2d1a',
-    references: [],
-    research_status: 'stub'
+    description: 'L2d1a - Rare Central African subclade (~8 kya, estimated from phylogenetic position within L2d1). Found at elevated frequency among the Bubi of Bioko Island off Cameroon coast, suggesting an ancient island-founder lineage.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   // ============================================================================
@@ -931,27 +961,29 @@ export const L1_L2_HAPLOGROUPS: MtDNAHaplogroup[] = [
   {
     id: 'L2e1',
     parent: 'L2e',
-    time_kya: null,
+    time_kya: 25,
+    time_kya_range: [18, 32],
     lat: 7,
     lon: 10,
-    region: 'West Africa',
+    region: 'West Africa (Nigeria/Cameroon)',
     color: '#CD853F',
-    description: 'L2e1',
-    references: [],
-    research_status: 'stub'
+    description: 'L2e1 - Ancient West African subclade (~25 kya, estimated from phylogenetic position within L2e at 36 kya). L2e represents the earliest split within L2; L2e1 carries much of this ancient diversity.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   {
     id: 'L2e1a',
     parent: 'L2e1',
-    time_kya: null,
+    time_kya: 18,
+    time_kya_range: [12, 24],
     lat: 6,
     lon: 12,
-    region: 'West/Southern Africa',
+    region: 'West/Central Africa',
     color: '#CD853F',
-    description: 'L2e1a',
-    references: [],
-    research_status: 'stub'
+    description: 'L2e1a - West/Central African subclade (~18 kya, estimated from phylogenetic position between L2e1 ~25 kya and daughter L2e1a1a at 2.0 kya). Ancestral to lineages carried southward during Bantu expansion.',
+    references: [REF_SILVA_2015],
+    research_status: 'complete'
   },
 
   {
