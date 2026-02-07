@@ -2,7 +2,7 @@
 
 An interactive visualization of ancient human Y-haplogroup migration patterns using the Fuller/Dymaxion map projection.
 
-**Live Demo:** [https://practicallyzen.com/fuller-map/](https://practicallyzen.com/fuller-map/index.html)
+**Live Demo:** https://johnjanik.github.io/HumanMigrationMap/ 
 
 ## Features
 
