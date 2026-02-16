@@ -116,6 +116,14 @@ const REF_SOARES_2010: Reference = {
   pmid: '20619815'
 };
 
+const REF_OLALDE_2026: Reference = {
+  authors: 'Olalde I, Altena E, Bourgeois Q et al.',
+  year: 2026,
+  title: 'Lasting Lower Rhine-Meuse forager ancestry shaped Bell Beaker expansion',
+  journal: 'Nature',
+  doi: '10.1038/s41586-026-10111-8'
+};
+
 const REF_METSPALU_2004: Reference = {
   authors: 'Metspalu M et al.',
   year: 2004,
@@ -306,8 +314,8 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     lon: 20,
     region: 'Europe',
     color: '#0066CC',
-    description: 'U5 - THE OLDEST EUROPEAN-SPECIFIC HAPLOGROUP. Arose ~35 kya in Europe. Dominant among Mesolithic hunter-gatherers (70-80% in some populations). Declined with Neolithic farming expansion but persists at ~10% in modern Europeans. U5a and U5b show different geographic distributions.',
-    references: [REF_MALYARCHUK_2008, REF_FU_2016, REF_BRAMANTI_2009, REF_HAAK_2015],
+    description: 'U5 - THE OLDEST EUROPEAN-SPECIFIC HAPLOGROUP. Arose ~35 kya in Europe. Dominant among Mesolithic hunter-gatherers (70-80% in some populations). Declined with Neolithic farming expansion but persists at ~10% in modern Europeans. U5a and U5b show different geographic distributions. In the Lower Rhine-Meuse area, U5 (along with U4\'9, U2, U*) persisted as hunter-gatherer mtDNA lineages through the Neolithic (8500-3000 BCE), reflecting high WHG ancestry retention unique to this wetland region (Olalde 2026).',
+    references: [REF_MALYARCHUK_2008, REF_FU_2016, REF_BRAMANTI_2009, REF_HAAK_2015, REF_OLALDE_2026],
     research_status: 'complete'
   },
   {
@@ -602,6 +610,19 @@ export const U_K_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#00C5FF',
     description: 'K1c - K1 subclade. Distributed across Central Europe.',
     references: [REF_COSTA_2013],
+    research_status: 'complete'
+  },
+  {
+    id: 'K1e',
+    parent: 'K1',
+    time_kya: 12,
+    time_kya_range: [8, 18],
+    lat: 50,
+    lon: 5,
+    region: 'Western Europe',
+    color: '#00C5AA',
+    description: 'K1e - K1 subclade classified as hunter-gatherer related in the Lower Rhine-Meuse region. Despite K being typically associated with Neolithic farmer populations, K1e was present among Mesolithic western hunter-gatherers and persisted through the Neolithic in the Lower Rhine-Meuse area (Olalde 2026).',
+    references: [REF_COSTA_2013, REF_OLALDE_2026],
     research_status: 'complete'
   },
   {

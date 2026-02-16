@@ -17,6 +17,7 @@ export interface MigrationEvent {
 
 export const migrationEvents: MigrationEvent[] = [
   // ========== DEEPEST AFRICAN ROOTS (275-200 kya) ==========
+  { time_kya: 773, parent: "Root", child: "Pre-A00", event_type: "split", parent_lat: 33, parent_lon: 7, child_lat: 33, child_lon: 7, color: "#000000", description: "Pre-A00 - Early Middle Pleistocene hominins" },
   { time_kya: 275, parent: "Root", child: "A00", event_type: "origin", parent_lat: -5, parent_lon: 35, child_lat: 5.3, child_lon: 9.9, color: "#8B0000", description: "A00 - Oldest known Y lineage (Cameroon)" },
   { time_kya: 254, parent: "Root", child: "Y-Adam", event_type: "origin", parent_lat: -5, parent_lon: 35, child_lat: -10, child_lon: 35, color: "#800000", description: "Y-chromosomal Adam (E/S Africa)" },
   { time_kya: 200, parent: "Y-Adam", child: "A0", event_type: "split", parent_lat: -10, parent_lon: 35, child_lat: 10, child_lon: 15, color: "#CD5C5C", description: "A0 emerges (Central/NW Africa)" },
@@ -64,6 +65,7 @@ export const migrationEvents: MigrationEvent[] = [
   { time_kya: 8, parent: "E-V13", child: "E-V13-Europe", event_type: "expansion", parent_lat: 42, parent_lon: 22, child_lat: 45, child_lon: 15, color: "#DEB887", description: "E-V13 into Europe" },
   { time_kya: 5.6, parent: "E-M215", child: "E-M81", event_type: "branch", parent_lat: 8, parent_lon: 45, child_lat: 32, child_lon: -5, color: "#CD853F", description: "E-M81 NW Africa (Berber)" },
   { time_kya: 2, parent: "E-M78", child: "E-M81-exp", event_type: "expansion", parent_lat: 33, parent_lon: 0, child_lat: 33, child_lon: 0, color: "#CD853F", description: "E-M81 North African expansion" },
+  { time_kya: 2, parent: "E-M81", child: "E-M183-E1b1b1b1a1", event_type: "expansion", parent_lat: 33, parent_lon: 0, child_lat: 28, child_lon: 16, color: "#CD853F", description: "Expantion to Canary Islands" },
 
   // ========== CF SPLIT (68.5 kya) ==========
   { time_kya: 68.5, parent: "CT", child: "CF", event_type: "split", parent_lat: 30, parent_lon: 35, child_lat: 30, child_lon: 35, color: "#FF8C00", description: "CF split" },
@@ -308,11 +310,58 @@ export const migrationEvents: MigrationEvent[] = [
   { time_kya: 1.5, parent: "R1b-L21", child: "R1b-UiNeill", event_type: "expansion", parent_lat: 52, parent_lon: -5, child_lat: 53.35, child_lon: -6.26, color: "#00008B", description: "R1b1b2 Ui Neill lineage Ireland" },
   { time_kya: 2, parent: "R1b-M269", child: "R1b-M222", event_type: "expansion", parent_lat: 54, parent_lon: -6, child_lat: 54, child_lon: -6, color: "#00008B", description: "R1b-M222 Irish expansion (Gaelic)" },
 
+  // R1b-L151 (P310/L11) - parent lineage of both P312 and U106
+  { time_kya: 4.8, parent: "R1b-M269", child: "R1b-L151", event_type: "branch", parent_lat: 48, parent_lon: 35, child_lat: 50, child_lon: 15, color: "#000080", description: "R1b-L151 (P310/L11) emerges - ancestral to both P312 and U106" },
+
+  // R1b-U106 - Major NW European lineage, CW-associated
+  { time_kya: 4.6, parent: "R1b-L151", child: "R1b-U106", event_type: "branch", parent_lat: 50, parent_lon: 15, child_lat: 52, child_lon: 12, color: "#000080", description: "R1b-U106 (S21) emerges - major NW European lineage" },
+
+  // R1b-DF19 - subclade of P312 in northern BB populations
+  { time_kya: 3.8, parent: "R1b-P312", child: "R1b-DF19", event_type: "branch", parent_lat: 48, parent_lon: 5, child_lat: 52, child_lon: 5, color: "#00008B", description: "R1b-DF19 subclade of P312 in northern European BB populations (Olalde 2026)" },
+
+  // ========== LOWER RHINE-MEUSE REGION (Olalde et al. 2026, Nature) ==========
+  // "Lasting Lower Rhine-Meuse forager ancestry shaped Bell Beaker expansion"
+  // 112 individuals from 8500-1700 BCE, Netherlands/Belgium/NW Germany
+  // Key finding: HG Y-lineages (I2a, C1a2, R1b-V88) persisted through Neolithic
+  // Female-mediated EEF ancestry introduction; male HG lineages only replaced by BB
+
+  // R1b-V88 in European WHG context (pre-Neolithic)
+  { time_kya: 8, parent: "R1b-V88", child: "R1b-V88-WHG", event_type: "migration", parent_lat: 30, parent_lon: 35, child_lat: 48, child_lon: 10, color: "#191970", description: "R1b-V88 present in European Mesolithic hunter-gatherers" },
+
+  // HG Y-lineage persistence in Lower Rhine-Meuse Neolithic (unique finding)
+  // Among 43 Early/Middle Neolithic men, ONLY HG Y-haplogroups observed
+  { time_kya: 6.3, parent: "I2", child: "I2a-LRM", event_type: "persistence", parent_lat: 44, parent_lon: 20, child_lat: 52, child_lon: 5.1, color: "#4169E1", description: "I2a persists in Neolithic Lower Rhine-Meuse - male HG lineages continue despite farming adoption (Olalde 2026)" },
+  { time_kya: 6.3, parent: "C1a2", child: "C1a2-LRM", event_type: "persistence", parent_lat: 50.5, parent_lon: 4.4, child_lat: 52, child_lon: 5.3, color: "#FF6347", description: "C1a2 persists in Neolithic Lower Rhine-Meuse forager-farmers (Olalde 2026)" },
+  { time_kya: 6.3, parent: "R1b-V88-WHG", child: "R1b-V88-LRM", event_type: "persistence", parent_lat: 48, parent_lon: 10, child_lat: 51.5, child_lon: 5, color: "#191970", description: "R1b-V88 persists as HG Y-lineage in Neolithic Lower Rhine-Meuse (Olalde 2026)" },
+
+  // CW arrival in Lower Rhine-Meuse with minimal steppe ancestry
+  { time_kya: 4.8, parent: "R1b-U106", child: "R1b-U106-LRM", event_type: "migration", parent_lat: 52, parent_lon: 12, child_lat: 52.72, child_lon: 4.95, color: "#000080", description: "R1b-U106 CW male reaches Lower Rhine-Meuse - earliest CW date in W Europe (2852-2574 BCE, Olalde 2026)" },
+
+  // Bell Beaker expansion to Lower Rhine-Meuse (~2500 BCE)
+  { time_kya: 4.5, parent: "R1b-P312", child: "R1b-P312-LRM", event_type: "expansion", parent_lat: 48, parent_lon: 5, child_lat: 52, child_lon: 5, color: "#000080", description: "R1b-P312 Bell Beaker males expand to Lower Rhine-Meuse, replacing HG Y-lineages I2a/C1a2/R1b-V88 (Olalde 2026)" },
+
+  // Bell Beaker expansion from Lower Rhine-Meuse to Britain - KEY FINDING
+  // Paper identifies LRM as likely origin of BB expansion to Britain
+  // ~90-100% replacement of local Neolithic ancestry in Britain
+  { time_kya: 4.3, parent: "R1b-P312-LRM", child: "R1b-P312-Britain", event_type: "expansion", parent_lat: 52, parent_lon: 5, child_lat: 52, child_lon: -1, color: "#000080", description: "Bell Beaker expansion from Lower Rhine-Meuse to Britain - 90-100% local Neolithic ancestry replaced (Olalde 2026)" },
+
   // ========== ANCIENT DNA SITES ==========
   { time_kya: 45, parent: "K-M2308", child: "aDNA-UstIshim", event_type: "ancient", parent_lat: 57.8, parent_lon: 70.8, child_lat: 57.8, child_lon: 70.8, color: "#FFD700", description: "Ust-Ishim ancient DNA (45 kya, K-M2308)" },
   { time_kya: 40, parent: "O", child: "aDNA-Tianyuan", event_type: "ancient", parent_lat: 23, parent_lon: 113, child_lat: 39.48, child_lon: 115.58, color: "#FFD700", description: "Tianyuan Cave ancient DNA (39-42 kya)" },
   { time_kya: 3.8, parent: "D1a2a", child: "aDNA-Funadomari", event_type: "ancient", parent_lat: 36, parent_lon: 138, child_lat: 41.5, child_lon: 140.5, color: "#FFD700", description: "Funadomari Jomon DNA (3,800 ya, D1a2a2a)" },
   { time_kya: 3.5, parent: "D1a2a", child: "aDNA-Ikawazu", event_type: "ancient", parent_lat: 36, parent_lon: 138, child_lat: 34.7, child_lon: 137.5, color: "#FFD700", description: "Ikawazu Jomon DNA (3,500 ya, D1a2a)" },
+
+  // Lower Rhine-Meuse aDNA sites (Olalde et al. 2026)
+  { time_kya: 10, parent: "I", child: "aDNA-Doggerland", event_type: "ancient", parent_lat: 48, parent_lon: 15, child_lat: 52.5, child_lon: 3, color: "#FFD700", description: "Doggerland (West of Brown Bank) aDNA: Mesolithic WHG from submerged North Sea (Olalde 2026)" },
+  { time_kya: 6.3, parent: "I2a-LRM", child: "aDNA-NieuwegeinKlooster", event_type: "ancient", parent_lat: 52, parent_lon: 5.1, child_lat: 52.03, child_lon: 5.08, color: "#FFD700", description: "Nieuwegein het Klooster aDNA: I17968, earliest EEF individual in LRM, HG male lineages + farmer mtDNA H+152 (4342-4171 BCE, Olalde 2026)" },
+  { time_kya: 6.3, parent: "I2a-LRM", child: "aDNA-SwifterbantS2", event_type: "ancient", parent_lat: 52, parent_lon: 5.1, child_lat: 52.57, child_lon: 5.62, color: "#FFD700", description: "Swifterbant S2 aDNA: Early Neolithic, HG Y-lineages with 37-45% EEF autosomal ancestry (Olalde 2026)" },
+  { time_kya: 5.5, parent: "I2a-LRM", child: "aDNA-Blatterhohle", event_type: "ancient", parent_lat: 52, parent_lon: 5.1, child_lat: 51.18, child_lon: 7.83, color: "#FFD700", description: "Blätterhöhle cave aDNA: Middle Neolithic, >75% WHG ancestry (3500-3000 BCE, Olalde 2026)" },
+  { time_kya: 5.5, parent: "I2a-LRM", child: "aDNA-ZoelenBeldert", event_type: "ancient", parent_lat: 52, parent_lon: 5.1, child_lat: 51.92, child_lon: 5.42, color: "#FFD700", description: "Zoelen de Beldert aDNA: Middle Neolithic, Hazendonk culture, 37-63% WHG ancestry (Olalde 2026)" },
+  { time_kya: 5, parent: "I2a-LRM", child: "aDNA-Baltrum", event_type: "ancient", parent_lat: 52, parent_lon: 5.1, child_lat: 53.73, child_lon: 7.37, color: "#FFD700", description: "Baltrum island aDNA: BLR001, Middle Neolithic with >75% WHG ancestry (Olalde 2026)" },
+  { time_kya: 4.8, parent: "R1b-U106-LRM", child: "aDNA-OpmeerMienakker", event_type: "ancient", parent_lat: 52.72, parent_lon: 4.95, child_lat: 52.72, child_lon: 4.95, color: "#FFD700", description: "Opmeer Mienakker aDNA: I12902, R1b-U106 CW male, earliest CW in W Europe (2852-2574 BCE, Olalde 2026)" },
+  { time_kya: 4.5, parent: "R1b-P312-LRM", child: "aDNA-OostwoudTuithoorn", event_type: "ancient", parent_lat: 52, parent_lon: 5, child_lat: 52.72, child_lon: 5.0, color: "#FFD700", description: "Oostwoud Tuithoorn aDNA: 9 R1b-L151-P312 BB males (~2500-2000 BCE, Olalde 2026)" },
+  { time_kya: 4.5, parent: "R1b-P312-LRM", child: "aDNA-OttolandElleboog", event_type: "ancient", parent_lat: 52, parent_lon: 5, child_lat: 51.93, child_lon: 4.78, color: "#FFD700", description: "Ottoland Kromme Elleboog aDNA: R1b-L151-P312 BB males (~2500-2000 BCE, Olalde 2026)" },
+  { time_kya: 4.7, parent: "R1b-U106-LRM", child: "aDNA-Molenaarsgraaf", event_type: "ancient", parent_lat: 52.72, parent_lon: 4.95, child_lat: 51.85, child_lon: 4.85, color: "#FFD700", description: "Molenaarsgraaf aDNA: I13025, R1b-L151-U106 Vlaardingen/CW context (Olalde 2026)" },
 ];
 
 // Helper to get events by time range

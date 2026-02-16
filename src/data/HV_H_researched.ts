@@ -115,6 +115,14 @@ const REF_MALYARCHUK_2008: Reference = {
   pmid: '18725954'
 };
 
+const REF_OLALDE_2026: Reference = {
+  authors: 'Olalde I, Altena E, Bourgeois Q et al.',
+  year: 2026,
+  title: 'Lasting Lower Rhine-Meuse forager ancestry shaped Bell Beaker expansion',
+  journal: 'Nature',
+  doi: '10.1038/s41586-026-10111-8'
+};
+
 const REF_OLIVIERI_2006: Reference = {
   authors: 'Olivieri A et al.',
   year: 2006,
@@ -184,6 +192,22 @@ export const HV_H_HAPLOGROUPS: MtDNAHaplogroup[] = [
     color: '#FF0000',
     description: 'H - THE MOST COMMON EUROPEAN HAPLOGROUP (40-50%). Origin debated between Near East and Franco-Cantabrian refugium. Major expansion ~14-15 kya post-LGM. Spread throughout Europe with Neolithic farmers and later waves. Carried by legendary figures ("Cheddar Man" had H1).',
     references: [REF_ACHILLI_2004, REF_ROOSTALU_2007, REF_BROTHERTON_2013, REF_PEREIRA_2005],
+    research_status: 'complete'
+  },
+
+  // ========== H+152 - Farmer-associated mtDNA in Lower Rhine-Meuse ==========
+  {
+    id: 'H+152',
+    parent: 'H',
+    time_kya: 10,
+    time_kya_range: [7, 15],
+    lat: 40,
+    lon: 30,
+    region: 'Near East/Europe',
+    color: '#FF0044',
+    description: 'H+152 - H haplogroup variant with T152C transition. Classified as Neolithic farmer-associated mtDNA. Found in the earliest individual with EEF ancestry in the Lower Rhine-Meuse area: I17968, a female from Nieuwegein het Klooster (Swifterbant culture, 4342-4171 cal BCE), who had only 37% EEF autosomal ancestry but farmer mtDNA, indicating female-mediated introduction of farming ancestry into hunter-gatherer communities (Olalde 2026).',
+    defining_mutations: ['T152C'],
+    references: [REF_LOOGVALI_2004, REF_OLALDE_2026],
     research_status: 'complete'
   },
 
