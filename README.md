@@ -85,6 +85,24 @@ The Dymaxion map, invented by Buckminster Fuller in 1943, projects Earth onto an
 - Reveals migration routes across now-submerged land bridges
 - Presents a more interconnected view of human geography
 
+To ensure reproducibility and transparency, the dataset and visualization tools used in this study are openly available on GitHub (Janik, 2026). The repository, *HumanMigrationMap*, provides source code, documentation, and interactive maps for analyzing migration patterns. It can be accessed at: [https://github.com/johnjanik/HumanMigrationMap](https://github.com/johnjanik/HumanMigrationMap).
+
+If you need it in a formal reference list, here’s an **APA-style citation**:
+
+**Reference list entry (APA 7th ed.):**  
+Janik, J. (2026). *HumanMigrationMap* (Version X.X) [Computer software]. GitHub. https://github.com/johnjanik/HumanMigrationMap  
+
+## **BibTeX entry**
+
+@misc{janik2026humanmigrationmap,
+  author       = {John Janik},
+  title        = {HumanMigrationMap},
+  year         = {2026},
+  howpublished = {\url{https://github.com/johnjanik/HumanMigrationMap}},
+  note         = {Version X.X},
+}
+
+
 ## License
 
 MIT License - See [license](Ancient%20Human%20Migration/fuller-map-app/node_modules/ms/license.md) for details.
