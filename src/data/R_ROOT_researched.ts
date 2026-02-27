@@ -89,6 +89,14 @@ const REF_ROOSTALU_2007: Reference = {
   pmid: '17005966'
 };
 
+const REF_ZHANG_2026: Reference = {
+  authors: 'Zhang D et al.',
+  year: 2026,
+  title: 'Neolithic genomes reveal long distance interactions in agropastoral border zone of Yan Mountain Region',
+  journal: 'Science Bulletin',
+  doi: '10.1016/j.scib.2025.11.013'
+};
+
 // ============================================================================
 // R ROOT AND MAJOR SUBCLADES - RESEARCHED DATA
 // ============================================================================
@@ -488,6 +496,60 @@ export const R_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     description: 'R9 - Southeast Asian/Southern Chinese R subclade. Ancestral to F.',
     references: [REF_MACAULAY_2005],
     research_status: 'complete'
+  },
+
+  // ============================================================================
+  // R11 - East/Southeast Asian R subclade (Zhang et al. 2026)
+  // ============================================================================
+  {
+    id: 'R11',
+    parent: 'R',
+    time_kya: 30,
+    time_kya_range: [25, 40],
+    lat: 25,
+    lon: 108,
+    region: 'Southern China / Southeast Asia',
+    color: '#9400D3',
+    description: 'R11 - East/Southeast Asian R subclade. Found at moderate frequency in southern Chinese and Southeast Asian populations. aDNA: 5 of 11 STM_EN individuals (STMM01, STMM03, STMM07, STMM09, STMM13) and 1 JJL_LN individual carried R11 at the Yan Mountain Region sites (7700-4300 cal BP, Zhang et al. 2026).',
+    references: [REF_TORRONI_2006, REF_ZHANG_2026],
+    research_status: 'complete'
+  },
+  {
+    id: 'R11b',
+    parent: 'R11',
+    time_kya: 20,
+    time_kya_range: [15, 28],
+    lat: 28,
+    lon: 112,
+    region: 'East Asia',
+    color: '#9400D3',
+    description: 'R11b - East Asian R11 subclade.',
+    references: [REF_TORRONI_2006],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'R11b1',
+    parent: 'R11b',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#9400D3',
+    description: 'R11b1 - R11b subclade.',
+    references: [REF_TORRONI_2006],
+    research_status: 'stub'
+  },
+  {
+    id: 'R11b1b',
+    parent: 'R11b1',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#9400D3',
+    description: 'R11b1b - R11b subclade. aDNA: found in JJL_LN female 95JJLM62 at Jiangjialiang, Late Neolithic Xiaoheyan culture (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
   },
 
   // ============================================================================

@@ -362,6 +362,30 @@ export const migrationEvents: MigrationEvent[] = [
   { time_kya: 4.5, parent: "R1b-P312-LRM", child: "aDNA-OostwoudTuithoorn", event_type: "ancient", parent_lat: 52, parent_lon: 5, child_lat: 52.72, child_lon: 5.0, color: "#FFD700", description: "Oostwoud Tuithoorn aDNA: 9 R1b-L151-P312 BB males (~2500-2000 BCE, Olalde 2026)" },
   { time_kya: 4.5, parent: "R1b-P312-LRM", child: "aDNA-OttolandElleboog", event_type: "ancient", parent_lat: 52, parent_lon: 5, child_lat: 51.93, child_lon: 4.78, color: "#FFD700", description: "Ottoland Kromme Elleboog aDNA: R1b-L151-P312 BB males (~2500-2000 BCE, Olalde 2026)" },
   { time_kya: 4.7, parent: "R1b-U106-LRM", child: "aDNA-Molenaarsgraaf", event_type: "ancient", parent_lat: 52.72, parent_lon: 4.95, child_lat: 51.85, child_lon: 4.85, color: "#FFD700", description: "Molenaarsgraaf aDNA: I13025, R1b-L151-U106 Vlaardingen/CW context (Olalde 2026)" },
+
+  // ========== YAN MOUNTAIN REGION (Zhang et al. 2026, Science Bulletin) ==========
+  // "Neolithic genomes reveal long distance interactions in agropastoral border zone of Yan Mountain Region"
+  // 42 ancient genomes from 3 sites: STM (7700-7400 cal BP), JJL (4828-4289 cal BP), Shumilikha (7570-4299 cal BP)
+  // Key finding: N1c1 in Early Neolithic YMR shows Lake Baikal–northern China interaction corridor
+  // Y-diversity in Late Neolithic JJL reflects admixture between northern (N, C) and Yellow River farmer (O) lineages
+
+  // Sitaimengguying (STM_EN) - Early Neolithic, Zhangjiakou, Hebei (~7700-7400 cal BP)
+  { time_kya: 7.55, parent: "N1c", child: "aDNA-STM-N1c1", event_type: "ancient", parent_lat: 60, parent_lon: 60, child_lat: 40.77, child_lon: 114.88, color: "#FFD700", description: "STM_EN aDNA: N1c1(N-M46) in 3 males (STMM01, STMM02, STMM07) - earliest N1c1 in Yan Mountain Region, links to Lake Baikal populations (7700-7400 cal BP, Zhang et al. 2026)" },
+
+  // Shumilikha (WestBaikal_EN) - Early Neolithic Kitoi culture, SW Lake Baikal (~7570-7430 cal BP)
+  { time_kya: 7.5, parent: "C2", child: "aDNA-Shumilikha-C2a1a", event_type: "ancient", parent_lat: 45, parent_lon: 90, child_lat: 51.7, child_lon: 103.7, color: "#FFD700", description: "Shumilikha aDNA: C2a1a(C-F3927) male, Early Neolithic Kitoi culture, SW Lake Baikal (7570-7430 cal BP, Zhang et al. 2026)" },
+
+  // Jiangjialiang (JJL_LN) - Late Neolithic Xiaoheyan culture, Hebei (~4828-4289 cal BP)
+  // Genetically heterogeneous: admixture between STM_EN-related groups and Yellow River farmers
+  { time_kya: 4.56, parent: "O2", child: "aDNA-JJL-O2a2a1a", event_type: "ancient", parent_lat: 35, parent_lon: 115, child_lat: 40.9, child_lon: 115.2, color: "#FFD700", description: "JJL_LN aDNA: O2a2a1a(O-CTS445) male 95JJLM26 - Yellow River farmer Y-lineage in Xiaoheyan culture (4828-4289 cal BP, Zhang et al. 2026)" },
+  { time_kya: 4.56, parent: "C1", child: "aDNA-JJL-C1b1a1", event_type: "ancient", parent_lat: 10, parent_lon: 120, child_lat: 40.9, child_lon: 115.2, color: "#FFD700", description: "JJL_LN aDNA: C1b1a1(C-Z16464) male 95JJLM27 - rare C1b lineage in Late Neolithic northern China (4828-4289 cal BP, Zhang et al. 2026)" },
+  { time_kya: 4.56, parent: "N", child: "aDNA-JJL-N-M232", event_type: "ancient", parent_lat: 23, parent_lon: 105, child_lat: 40.9, child_lon: 115.2, color: "#FFD700", description: "JJL_LN aDNA: N(N-M232) male 95JJLM20-2 - basal N lineage in Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026)" },
+  { time_kya: 4.56, parent: "N1c", child: "aDNA-JJL-N1a1a", event_type: "ancient", parent_lat: 60, parent_lon: 60, child_lat: 40.9, child_lon: 115.2, color: "#FFD700", description: "JJL_LN aDNA: N1a1a(N-M178) male 95JJLM51 - Siberian N lineage persists in Late Neolithic YMR (4828-4289 cal BP, Zhang et al. 2026)" },
+  { time_kya: 4.56, parent: "F", child: "aDNA-JJL-F-M235", event_type: "ancient", parent_lat: 35, parent_lon: 50, child_lat: 40.9, child_lon: 115.2, color: "#FFD700", description: "JJL_LN aDNA: F(F-M235) male 95JJLM29-1 - basal F lineage in Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026)" },
+  { time_kya: 4.56, parent: "NO1", child: "aDNA-JJL-NO1", event_type: "ancient", parent_lat: 35, parent_lon: 100, child_lat: 40.9, child_lon: 115.2, color: "#FFD700", description: "JJL_LN aDNA: NO1(NO1-P193) male 95JJLM25 - basal NO1 lineage in Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026)" },
+  { time_kya: 4.56, parent: "O1", child: "aDNA-JJL-O1b1", event_type: "ancient", parent_lat: 23, parent_lon: 113, child_lat: 40.9, child_lon: 115.2, color: "#FFD700", description: "JJL_LN aDNA: O1b1(O-M1441) male 95JJLM29 (low coverage) - SE Asian O lineage in Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026)" },
+  { time_kya: 4.56, parent: "HIJK", child: "aDNA-JJL-HIJK", event_type: "ancient", parent_lat: 35, parent_lon: 60, child_lat: 40.9, child_lon: 115.2, color: "#FFD700", description: "JJL_LN aDNA: HIJK(HIJK-M578) male 95JJLM67 - low-resolution Y call in Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026)" },
+  { time_kya: 4.56, parent: "A1", child: "aDNA-JJL-A", event_type: "ancient", parent_lat: -5, parent_lon: 20, child_lat: 40.9, child_lon: 115.2, color: "#FFD700", description: "JJL_LN aDNA: Y-A male 95JJLM09 - extremely rare basal A lineage in Late Neolithic East Asia (4828-4289 cal BP, Zhang et al. 2026)" },
 ];
 
 // Helper to get events by time range

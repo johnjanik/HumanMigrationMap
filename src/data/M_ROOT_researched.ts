@@ -110,6 +110,14 @@ const REF_PALANICHAMY_2004: Reference = {
   pmid: '15452178'
 };
 
+const REF_ZHANG_2026: Reference = {
+  authors: 'Zhang D et al.',
+  year: 2026,
+  title: 'Neolithic genomes reveal long distance interactions in agropastoral border zone of Yan Mountain Region',
+  journal: 'Science Bulletin',
+  doi: '10.1016/j.scib.2025.11.013'
+};
+
 // ============================================================================
 // M ROOT AND MAJOR SUBCLADES - RESEARCHED DATA
 // ============================================================================
@@ -635,6 +643,113 @@ export const M_ROOT_HAPLOGROUPS: MtDNAHaplogroup[] = [
     description: 'M42 - Australian Aboriginal haplogroup. Ancient relict lineage from coastal migration.',
     references: [REF_MACAULAY_2005],
     research_status: 'complete'
+  },
+
+  // ========== Zhang et al. 2026 - Yan Mountain Region aDNA ==========
+  // Sitaimengguying (STM, ~7700-7400 cal BP), Jiangjialiang (JJL, ~4828-4289 cal BP)
+
+  // M10 subclades
+  {
+    id: 'M10a',
+    parent: 'M10',
+    time_kya: 25,
+    time_kya_range: [20, 32],
+    lat: 35,
+    lon: 115,
+    region: 'East Asia',
+    color: '#FF4500',
+    description: 'M10a - M10 subclade found in East Asian populations.',
+    references: [REF_KONG_2006],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'M10a1',
+    parent: 'M10a',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#FF4500',
+    description: 'M10a1 - M10a subclade.',
+    references: [REF_KONG_2006],
+    research_status: 'stub'
+  },
+  {
+    id: 'M10a1b',
+    parent: 'M10a1',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'Northern China',
+    color: '#FF4500',
+    description: 'M10a1b - M10a1 subclade. aDNA: found in JJL_LN males 95JJLM09 and 95JJLM10 at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+
+  // M9a subclades
+  {
+    id: 'M9a1',
+    parent: 'M9a',
+    time_kya: 20,
+    time_kya_range: [15, 27],
+    lat: 30,
+    lon: 105,
+    region: 'East Asia',
+    color: '#FF4500',
+    description: 'M9a1 - M9a subclade found in East Asian populations.',
+    references: [REF_KONG_2006],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'M9a1a',
+    parent: 'M9a1',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#FF4500',
+    description: 'M9a1a - M9a1 subclade.',
+    references: [REF_KONG_2006],
+    research_status: 'stub'
+  },
+  {
+    id: 'M9a1a1',
+    parent: 'M9a1a',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#FF4500',
+    description: 'M9a1a1 - M9a1a subclade.',
+    references: [REF_KONG_2006],
+    research_status: 'stub'
+  },
+  {
+    id: 'M9a1a1d',
+    parent: 'M9a1a1',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'Northern China',
+    color: '#FF4500',
+    description: 'M9a1a1d - M9a1a1 subclade. aDNA: found in JJL_LN male 95JJLM51 and female 95JJLM58 (related pair) at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+
+  // M80 (for M80'D notation - could be M80 or D)
+  {
+    id: 'M80',
+    parent: 'M',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#FF4500',
+    description: 'M80 - Rare M subclade. aDNA: M80\'D found in JJL_LN female 95JJLM11 (genetic outlier) at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026). Notation M80\'D indicates the haplogroup could not be resolved between M80 and D.',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
   },
 ];
 

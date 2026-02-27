@@ -116,6 +116,14 @@ const REF_LIPSON_2014: Reference = {
   pmid: '25137359'
 };
 
+const REF_ZHANG_2026: Reference = {
+  authors: 'Zhang D et al.',
+  year: 2026,
+  title: 'Neolithic genomes reveal long distance interactions in agropastoral border zone of Yan Mountain Region',
+  journal: 'Science Bulletin',
+  doi: '10.1016/j.scib.2025.11.013'
+};
+
 // ============================================================================
 // HAPLOGROUPS - COMPLETE (with TMRCA dates and references)
 // ============================================================================
@@ -832,6 +840,123 @@ export const B_F_HAPLOGROUPS: MtDNAHaplogroup[] = [
   // ... Additional stubs would be imported from original file
   // For practical purposes, representing first few stubs
   // Full stub list should be merged from B_F_stubs.ts
+
+  // ========== Zhang et al. 2026 - Yan Mountain Region aDNA ==========
+  // Jiangjialiang (JJL_LN, ~4828-4289 cal BP), Late Neolithic Xiaoheyan culture
+
+  // B4 subclades
+  {
+    id: 'B4d1',
+    parent: 'B4d',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia / Northern China',
+    color: '#00BFFF',
+    description: 'B4d1 - B4d subclade. aDNA: found in JJL_LN male 95JJLM29-1 at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'B4c1b',
+    parent: 'B4c1',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#00BFFF',
+    description: 'B4c1b - B4c1 subclade found in East Asian populations.',
+    references: [REF_KONG_2006],
+    research_status: 'stub'
+  },
+  {
+    id: 'B4c1b2',
+    parent: 'B4c1b',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#00BFFF',
+    description: 'B4c1b2 - B4c1b subclade.',
+    references: [REF_KONG_2006],
+    research_status: 'stub'
+  },
+  {
+    id: 'B4c1b2c',
+    parent: 'B4c1b2',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'Northern China',
+    color: '#00BFFF',
+    description: 'B4c1b2c - B4c1b2 subclade. aDNA: found in JJL_LN female 95JJLM39 at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+
+  // B5 subclades
+  {
+    id: 'B5b2',
+    parent: 'B5b',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East/Southeast Asia',
+    color: '#00BFFF',
+    description: 'B5b2 - B5b subclade found in East and Southeast Asian populations.',
+    references: [REF_KONG_2006],
+    research_status: 'stub'
+  },
+  {
+    id: 'B5b2c',
+    parent: 'B5b2',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'Northern China',
+    color: '#00BFFF',
+    description: 'B5b2c - B5b2 subclade. aDNA: found in JJL_LN male 95JJLM03 at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+
+  // F subclades
+  {
+    id: 'F1c1',
+    parent: 'F1c',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#1E90FF',
+    description: 'F1c1 - F1c subclade found in East Asian populations.',
+    references: [REF_KONG_2006],
+    research_status: 'stub'
+  },
+  {
+    id: 'F1c1a',
+    parent: 'F1c1',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#1E90FF',
+    description: 'F1c1a - F1c1 subclade.',
+    references: [REF_KONG_2006],
+    research_status: 'stub'
+  },
+  {
+    id: 'F1c1a2',
+    parent: 'F1c1a',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'Northern China',
+    color: '#1E90FF',
+    description: 'F1c1a2 - F1c1a subclade. aDNA: found in JJL_LN male 95JJLM38 (genetic outlier) at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
 ];
 
 // Note: This file contains 35 complete entries, 20 needs_references entries

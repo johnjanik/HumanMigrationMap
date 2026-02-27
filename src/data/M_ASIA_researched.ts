@@ -108,6 +108,14 @@ const REF_MULLIGAN_2008: Reference = {
   pmid: '19572681'
 };
 
+const REF_ZHANG_2026: Reference = {
+  authors: 'Zhang D et al.',
+  year: 2026,
+  title: 'Neolithic genomes reveal long distance interactions in agropastoral border zone of Yan Mountain Region',
+  journal: 'Science Bulletin',
+  doi: '10.1016/j.scib.2025.11.013'
+};
+
 // ============================================================================
 // HAPLOGROUPS - COMPLETE (with TMRCA dates and references)
 // ============================================================================
@@ -848,6 +856,179 @@ export const M_ASIA_HAPLOGROUPS: MtDNAHaplogroup[] = [
   // ... Additional stubs would be imported from original file
   // For practical purposes, representing first few stubs
   // Full stub list should be merged from M_ASIA_stubs.ts
+
+  // ========== Zhang et al. 2026 - Yan Mountain Region aDNA ==========
+  // Sitaimengguying (STM, ~7700-7400 cal BP), Jiangjialiang (JJL, ~4828-4289 cal BP),
+  // Shumilikha (WestBaikal, ~7570-4299 cal BP)
+
+  // C4a subclades
+  {
+    id: 'C4a1',
+    parent: 'C4a',
+    time_kya: 14,
+    time_kya_range: [10, 19],
+    lat: 52,
+    lon: 108,
+    region: 'Siberia / Lake Baikal',
+    color: '#6A5ACD',
+    description: 'C4a1 - Siberian C4a subclade. aDNA: C4a1a+195 found in WestBaikal_BA female at Shumilikha, Early Bronze Age Glazkovo culture (4523-4299 cal BP, Zhang et al. 2026).',
+    references: [REF_DERENKO_2007, REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'C4a1a',
+    parent: 'C4a1',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'Siberia / Lake Baikal',
+    color: '#6A5ACD',
+    description: 'C4a1a - C4a1 subclade. aDNA: C4a1a+195 found in WestBaikal_BA female at Shumilikha, SW Lake Baikal (4523-4299 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'C4a2',
+    parent: 'C4a',
+    time_kya: 12,
+    time_kya_range: [8, 17],
+    lat: 50,
+    lon: 110,
+    region: 'Siberia / Northern China',
+    color: '#6A5ACD',
+    description: 'C4a2 - C4a subclade found in Siberian and northern Chinese populations.',
+    references: [REF_DERENKO_2007, REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'C4a2c',
+    parent: 'C4a2',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'Northern China / Yan Mountain Region',
+    color: '#6A5ACD',
+    description: 'C4a2c - C4a2 subclade. aDNA: found in STM_EN male STMM02 (father in kinship pedigree) at Sitaimengguying, Early Neolithic (7700-7400 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'C4a2a1',
+    parent: 'C4a2',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'Northern China',
+    color: '#6A5ACD',
+    description: 'C4a2a1 - C4a2 subclade. aDNA: found in JJL_LN male 95JJLM06 at Jiangjialiang, Late Neolithic Xiaoheyan culture (4828-4289 cal BP, Zhang et al. 2026; note: contaminated sample).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+
+  // D4 subclades
+  {
+    id: 'D4e1',
+    parent: 'D4e',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'Siberia / Lake Baikal',
+    color: '#51B9E1',
+    description: 'D4e1 - D4e subclade. aDNA: found in WestBaikal_EN male at Shumilikha, Early Neolithic Kitoi culture, SW Lake Baikal (7570-7430 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'D4i',
+    parent: 'D4',
+    time_kya: 14,
+    time_kya_range: [10, 20],
+    lat: 38,
+    lon: 118,
+    region: 'East Asia (northern China)',
+    color: '#51E9E1',
+    description: 'D4i - D4 subclade found in East Asian populations. aDNA: found in JJL_LN male 95JJLM20-2 at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_KONG_2006, REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'D4i2',
+    parent: 'D4i',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#51E9E1',
+    description: 'D4i2 - D4i subclade. aDNA: found in JJL_LN male 95JJLM27 at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'D4j3',
+    parent: 'D4j',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'East Asia',
+    color: '#51D9E1',
+    description: 'D4j3 - D4j subclade. aDNA: found in STM_EN female STMM06 at Sitaimengguying, Early Neolithic (7700-7400 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+
+  // D5a subclades
+  {
+    id: 'D5a2',
+    parent: 'D5a',
+    time_kya: 15,
+    time_kya_range: [11, 20],
+    lat: 30,
+    lon: 115,
+    region: 'East Asia',
+    color: '#6169E1',
+    description: 'D5a2 - D5a subclade found in East Asian populations.',
+    references: [REF_KONG_2006],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'D5a2a1',
+    parent: 'D5a2',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'Northern China',
+    color: '#6169E1',
+    description: 'D5a2a1 - D5a2 subclade. aDNA: D5a2a1+@16172 found in JJL_LN male 95JJLM67, and D5a2a1b in 98JJLM09, at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+
+  // G subclades
+  {
+    id: 'G1c',
+    parent: 'G1',
+    time_kya: null,
+    lat: null,
+    lon: null,
+    region: 'Northern China',
+    color: '#228B22',
+    description: 'G1c - G1 subclade. aDNA: found in JJL_LN male 95JJLM20-3 at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
+  {
+    id: 'G3a',
+    parent: 'G3',
+    time_kya: 20,
+    time_kya_range: [15, 27],
+    lat: 45,
+    lon: 118,
+    region: 'Northeast Asia / Northern China',
+    color: '#22DB22',
+    description: 'G3a - G3 subclade found in Northeast Asian populations. aDNA: G3a1\'2 found in JJL_LN female 95JJLM20 at Jiangjialiang, Late Neolithic Xiaoheyan (4828-4289 cal BP, Zhang et al. 2026).',
+    references: [REF_DERENKO_2007, REF_ZHANG_2026],
+    research_status: 'needs_references'
+  },
 ];
 
 // Note: This file contains 40 complete entries, 20 needs_references entries
